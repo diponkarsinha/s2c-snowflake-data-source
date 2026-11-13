@@ -1,0 +1,1710 @@
+{
+  "result": [
+    {
+      "request_id": "REQ1001101",
+      "short_description": "Legal services for Pharmaceuticals",
+      "category_id": "CAT-222",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "272000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Garcia",
+        "email": "mila.garcia@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-02-22 18:00:00",
+      "updated_at": "2026-03-26 20:00:00",
+      "sla_due_date": "2026-04-08",
+      "linked_event_id": "Doc6100150"
+    },
+    {
+      "request_id": "REQ1001102",
+      "short_description": "Management consulting for R&D",
+      "category_id": "CAT-221",
+      "business_unit": "R&D",
+      "estimated_value": "307000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Tara Patel",
+        "email": "tara.patel@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-08-27 16:00:00",
+      "updated_at": "2026-09-23 18:00:00",
+      "sla_due_date": "2026-10-11",
+      "linked_event_id": "Doc6100123"
+    },
+    {
+      "request_id": "REQ1001103",
+      "short_description": "Primary packaging (vials, blisters) for R&D",
+      "category_id": "CAT-121",
+      "business_unit": "R&D",
+      "estimated_value": "588000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Eva Weber",
+        "email": "eva.weber@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-02-09 12:00:00",
+      "updated_at": "2026-04-02 14:00:00",
+      "sla_due_date": "2026-03-26",
+      "linked_event_id": "Doc6100023"
+    },
+    {
+      "request_id": "REQ1001104",
+      "short_description": "Secondary packaging (cartons, labels) for Consumer Health",
+      "category_id": "CAT-122",
+      "business_unit": "Consumer Health",
+      "estimated_value": "268000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Paul Meyer",
+        "email": "paul.meyer@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-07-14 15:00:00",
+      "updated_at": "2026-07-14 10:00:00",
+      "sla_due_date": "2026-08-28",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001105",
+      "short_description": "Cold-chain freight for R&D",
+      "category_id": "CAT-251",
+      "business_unit": "R&D",
+      "estimated_value": "476000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Paul Meyer",
+        "email": "paul.meyer@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-07-09 18:00:00",
+      "updated_at": "2026-07-27 18:00:00",
+      "sla_due_date": "2026-08-23",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001106",
+      "short_description": "Primary packaging (vials, blisters) for Corporate",
+      "category_id": "CAT-121",
+      "business_unit": "Corporate",
+      "estimated_value": "505000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Garcia",
+        "email": "mila.garcia@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-04-30 09:00:00",
+      "updated_at": "2026-05-12 09:00:00",
+      "sla_due_date": "2026-06-14",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001107",
+      "short_description": "Primary packaging (vials, blisters) for Corporate",
+      "category_id": "CAT-121",
+      "business_unit": "Corporate",
+      "estimated_value": "39000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ben Chen",
+        "email": "ben.chen@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-08-05 17:00:00",
+      "updated_at": "2026-08-15 17:00:00",
+      "sla_due_date": "2026-09-19",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001108",
+      "short_description": "Excipients for Pharmaceuticals",
+      "category_id": "CAT-112",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "427000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ines Okafor",
+        "email": "ines.okafor@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-10-09 07:00:00",
+      "updated_at": "2026-10-13 07:00:00",
+      "sla_due_date": "2026-11-23",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001109",
+      "short_description": "Primary packaging (vials, blisters) for MedTech",
+      "category_id": "CAT-121",
+      "business_unit": "MedTech",
+      "estimated_value": "14000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Paul Brown",
+        "email": "paul.brown@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-09-19 10:00:00",
+      "updated_at": "2026-09-22 10:00:00",
+      "sla_due_date": "2026-11-03",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001110",
+      "short_description": "Secondary packaging (cartons, labels) for Pharmaceuticals",
+      "category_id": "CAT-122",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "637000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Felix Miller",
+        "email": "felix.miller@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-07-17 14:00:00",
+      "updated_at": "2026-08-29 16:00:00",
+      "sla_due_date": "2026-08-31",
+      "linked_event_id": "Doc6100004"
+    },
+    {
+      "request_id": "REQ1001111",
+      "short_description": "Cleaning and maintenance for R&D",
+      "category_id": "CAT-231",
+      "business_unit": "R&D",
+      "estimated_value": "680000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Felix Kowalski",
+        "email": "felix.kowalski@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-10-08 16:00:00",
+      "updated_at": "2026-10-08 16:00:00",
+      "sla_due_date": "2026-11-22",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001112",
+      "short_description": "IT hardware for Corporate",
+      "category_id": "CAT-212",
+      "business_unit": "Corporate",
+      "estimated_value": "426000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ximena Okafor",
+        "email": "ximena.okafor@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2025-11-09 07:00:00",
+      "updated_at": "2025-12-26 09:00:00",
+      "sla_due_date": "2025-12-24",
+      "linked_event_id": "Doc6100131"
+    },
+    {
+      "request_id": "REQ1001113",
+      "short_description": "Active pharmaceutical ingredients for Consumer Health",
+      "category_id": "CAT-111",
+      "business_unit": "Consumer Health",
+      "estimated_value": "553000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Tara Patel",
+        "email": "tara.patel@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2025-11-09 15:00:00",
+      "updated_at": "2025-12-31 17:00:00",
+      "sla_due_date": "2025-12-24",
+      "linked_event_id": "Doc6100039"
+    },
+    {
+      "request_id": "REQ1001114",
+      "short_description": "Lab consumables for R&D",
+      "category_id": "CAT-131",
+      "business_unit": "R&D",
+      "estimated_value": "830000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Tara Murphy",
+        "email": "tara.murphy@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2025-11-09 15:00:00",
+      "updated_at": "2025-11-19 15:00:00",
+      "sla_due_date": "2025-12-24",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001115",
+      "short_description": "Primary packaging (vials, blisters) for MedTech",
+      "category_id": "CAT-121",
+      "business_unit": "MedTech",
+      "estimated_value": "251000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Liam Miller",
+        "email": "liam.miller@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2025-12-25 08:00:00",
+      "updated_at": "2026-01-23 10:00:00",
+      "sla_due_date": "2026-02-08",
+      "linked_event_id": "Doc6100168"
+    },
+    {
+      "request_id": "REQ1001116",
+      "short_description": "Secondary packaging (cartons, labels) for Consumer Health",
+      "category_id": "CAT-122",
+      "business_unit": "Consumer Health",
+      "estimated_value": "278000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Yusuf Novak",
+        "email": "yusuf.novak@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-09-14 15:00:00",
+      "updated_at": "2026-09-23 15:00:00",
+      "sla_due_date": "2026-10-29",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001117",
+      "short_description": "Cold-chain freight for R&D",
+      "category_id": "CAT-251",
+      "business_unit": "R&D",
+      "estimated_value": "475000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Felix Miller",
+        "email": "felix.miller@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-05-23 08:00:00",
+      "updated_at": "2026-06-07 08:00:00",
+      "sla_due_date": "2026-07-07",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001118",
+      "short_description": "Legal services for Consumer Health",
+      "category_id": "CAT-222",
+      "business_unit": "Consumer Health",
+      "estimated_value": "705000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Eva Weber",
+        "email": "eva.weber@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-03-05 18:00:00",
+      "updated_at": "2026-03-09 18:00:00",
+      "sla_due_date": "2026-04-19",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001119",
+      "short_description": "Excipients for Pharmaceuticals",
+      "category_id": "CAT-112",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "100000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ines Okafor",
+        "email": "ines.okafor@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-10-01 17:00:00",
+      "updated_at": "2026-10-05 17:00:00",
+      "sla_due_date": "2026-11-15",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001120",
+      "short_description": "Software licences for R&D",
+      "category_id": "CAT-211",
+      "business_unit": "R&D",
+      "estimated_value": "62000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ximena Okafor",
+        "email": "ximena.okafor@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-05-14 13:00:00",
+      "updated_at": "2026-06-30 15:00:00",
+      "sla_due_date": "2026-06-28",
+      "linked_event_id": "Doc6100045"
+    },
+    {
+      "request_id": "REQ1001121",
+      "short_description": "Cleaning and maintenance for Pharmaceuticals",
+      "category_id": "CAT-231",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "516000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Hugo Silva",
+        "email": "hugo.silva@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2025-11-05 18:00:00",
+      "updated_at": "2025-11-24 18:00:00",
+      "sla_due_date": "2025-12-20",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001122",
+      "short_description": "Software licences for Pharmaceuticals",
+      "category_id": "CAT-211",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "545000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Kowalski",
+        "email": "mila.kowalski@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-09-27 12:00:00",
+      "updated_at": "2026-10-06 12:00:00",
+      "sla_due_date": "2026-11-11",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001123",
+      "short_description": "Active pharmaceutical ingredients for Corporate",
+      "category_id": "CAT-111",
+      "business_unit": "Corporate",
+      "estimated_value": "491000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Victor Brown",
+        "email": "victor.brown@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-02-26 10:00:00",
+      "updated_at": "2026-04-03 12:00:00",
+      "sla_due_date": "2026-04-12",
+      "linked_event_id": "Doc6100101"
+    },
+    {
+      "request_id": "REQ1001124",
+      "short_description": "Lab consumables for Consumer Health",
+      "category_id": "CAT-131",
+      "business_unit": "Consumer Health",
+      "estimated_value": "561000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Anna Patel",
+        "email": "anna.patel@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2025-11-24 08:00:00",
+      "updated_at": "2025-12-02 08:00:00",
+      "sla_due_date": "2026-01-08",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001125",
+      "short_description": "Legal services for Consumer Health",
+      "category_id": "CAT-222",
+      "business_unit": "Consumer Health",
+      "estimated_value": "21000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Hugo Silva",
+        "email": "hugo.silva@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-10-03 07:00:00",
+      "updated_at": "2026-10-09 09:00:00",
+      "sla_due_date": "2026-11-17",
+      "linked_event_id": "Doc6100133"
+    },
+    {
+      "request_id": "REQ1001126",
+      "short_description": "Secondary packaging (cartons, labels) for R&D",
+      "category_id": "CAT-122",
+      "business_unit": "R&D",
+      "estimated_value": "83000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ines Okafor",
+        "email": "ines.okafor@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-08-28 09:00:00",
+      "updated_at": "2026-10-05 11:00:00",
+      "sla_due_date": "2026-10-12",
+      "linked_event_id": "Doc6100011"
+    },
+    {
+      "request_id": "REQ1001127",
+      "short_description": "Lab consumables for Corporate",
+      "category_id": "CAT-131",
+      "business_unit": "Corporate",
+      "estimated_value": "859000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Eva Weber",
+        "email": "eva.weber@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-01-23 16:00:00",
+      "updated_at": "2026-03-01 18:00:00",
+      "sla_due_date": "2026-03-09",
+      "linked_event_id": "Doc6100088"
+    },
+    {
+      "request_id": "REQ1001128",
+      "short_description": "Software licences for R&D",
+      "category_id": "CAT-211",
+      "business_unit": "R&D",
+      "estimated_value": "778000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ben Garcia",
+        "email": "ben.garcia@samplepharma.example"
+      },
+      "status": "Sourcing",
+      "created_at": "2026-10-13 15:00:00",
+      "updated_at": "2026-10-18 17:00:00",
+      "sla_due_date": "2026-11-27",
+      "linked_event_id": "Doc6100025"
+    },
+    {
+      "request_id": "REQ1001129",
+      "short_description": "Clinical trial services (CRO) for Pharmaceuticals",
+      "category_id": "CAT-241",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "517000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Tara Patel",
+        "email": "tara.patel@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-01-11 18:00:00",
+      "updated_at": "2026-01-31 18:00:00",
+      "sla_due_date": "2026-02-25",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001130",
+      "short_description": "Clinical trial services (CRO) for R&D",
+      "category_id": "CAT-241",
+      "business_unit": "R&D",
+      "estimated_value": "242000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Noah Silva",
+        "email": "noah.silva@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-04-27 07:00:00",
+      "updated_at": "2026-05-12 07:00:00",
+      "sla_due_date": "2026-06-11",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001131",
+      "short_description": "Excipients for Corporate",
+      "category_id": "CAT-112",
+      "business_unit": "Corporate",
+      "estimated_value": "614000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ines Okafor",
+        "email": "ines.okafor@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-04-24 16:00:00",
+      "updated_at": "2026-05-06 16:00:00",
+      "sla_due_date": "2026-06-08",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001132",
+      "short_description": "Software licences for Consumer Health",
+      "category_id": "CAT-211",
+      "business_unit": "Consumer Health",
+      "estimated_value": "807000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Paul Meyer",
+        "email": "paul.meyer@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-04-17 07:00:00",
+      "updated_at": "2026-04-27 07:00:00",
+      "sla_due_date": "2026-06-01",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001133",
+      "short_description": "IT hardware for Corporate",
+      "category_id": "CAT-212",
+      "business_unit": "Corporate",
+      "estimated_value": "389000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Felix Miller",
+        "email": "felix.miller@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-07-10 10:00:00",
+      "updated_at": "2026-07-16 10:00:00",
+      "sla_due_date": "2026-08-24",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001134",
+      "short_description": "Software licences for R&D",
+      "category_id": "CAT-211",
+      "business_unit": "R&D",
+      "estimated_value": "92000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Kowalski",
+        "email": "mila.kowalski@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-02-04 17:00:00",
+      "updated_at": "2026-02-05 17:00:00",
+      "sla_due_date": "2026-03-21",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001135",
+      "short_description": "Cold-chain freight for MedTech",
+      "category_id": "CAT-251",
+      "business_unit": "MedTech",
+      "estimated_value": "735000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Dubois",
+        "email": "mila.dubois@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-09-13 11:00:00",
+      "updated_at": "2026-10-19 13:00:00",
+      "sla_due_date": "2026-10-28",
+      "linked_event_id": "Doc6100100"
+    },
+    {
+      "request_id": "REQ1001136",
+      "short_description": "Excipients for R&D",
+      "category_id": "CAT-112",
+      "business_unit": "R&D",
+      "estimated_value": "733000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Garcia",
+        "email": "mila.garcia@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2025-12-13 11:00:00",
+      "updated_at": "2025-12-28 11:00:00",
+      "sla_due_date": "2026-01-27",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001137",
+      "short_description": "Cold-chain freight for R&D",
+      "category_id": "CAT-251",
+      "business_unit": "R&D",
+      "estimated_value": "329000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Tara Patel",
+        "email": "tara.patel@samplepharma.example"
+      },
+      "status": "Sourcing",
+      "created_at": "2026-09-21 09:00:00",
+      "updated_at": "2026-10-09 11:00:00",
+      "sla_due_date": "2026-11-05",
+      "linked_event_id": "Doc6100053"
+    },
+    {
+      "request_id": "REQ1001138",
+      "short_description": "Lab equipment for Consumer Health",
+      "category_id": "CAT-132",
+      "business_unit": "Consumer Health",
+      "estimated_value": "460000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Grace Patel",
+        "email": "grace.patel@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2025-12-25 08:00:00",
+      "updated_at": "2026-01-03 08:00:00",
+      "sla_due_date": "2026-02-08",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001139",
+      "short_description": "Lab equipment for Pharmaceuticals",
+      "category_id": "CAT-132",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "196000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Garcia",
+        "email": "mila.garcia@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-03-19 08:00:00",
+      "updated_at": "2026-04-21 10:00:00",
+      "sla_due_date": "2026-05-03",
+      "linked_event_id": "Doc6100035"
+    },
+    {
+      "request_id": "REQ1001140",
+      "short_description": "Software licences for Corporate",
+      "category_id": "CAT-211",
+      "business_unit": "Corporate",
+      "estimated_value": "422000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ximena Okafor",
+        "email": "ximena.okafor@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-06-18 15:00:00",
+      "updated_at": "2026-06-18 15:00:00",
+      "sla_due_date": "2026-08-02",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001141",
+      "short_description": "Excipients for Corporate",
+      "category_id": "CAT-112",
+      "business_unit": "Corporate",
+      "estimated_value": "100000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Felix Miller",
+        "email": "felix.miller@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2025-11-14 08:00:00",
+      "updated_at": "2025-12-22 10:00:00",
+      "sla_due_date": "2025-12-29",
+      "linked_event_id": "Doc6100006"
+    },
+    {
+      "request_id": "REQ1001142",
+      "short_description": "Legal services for R&D",
+      "category_id": "CAT-222",
+      "business_unit": "R&D",
+      "estimated_value": "17000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Felix Dubois",
+        "email": "felix.dubois@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-09-03 12:00:00",
+      "updated_at": "2026-09-13 12:00:00",
+      "sla_due_date": "2026-10-18",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001143",
+      "short_description": "Lab consumables for Pharmaceuticals",
+      "category_id": "CAT-131",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "747000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ines Okafor",
+        "email": "ines.okafor@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-05-31 13:00:00",
+      "updated_at": "2026-06-15 13:00:00",
+      "sla_due_date": "2026-07-15",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001144",
+      "short_description": "Management consulting for MedTech",
+      "category_id": "CAT-221",
+      "business_unit": "MedTech",
+      "estimated_value": "706000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Liam Miller",
+        "email": "liam.miller@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-03-05 16:00:00",
+      "updated_at": "2026-04-24 18:00:00",
+      "sla_due_date": "2026-04-19",
+      "linked_event_id": "Doc6100007"
+    },
+    {
+      "request_id": "REQ1001145",
+      "short_description": "Software licences for Consumer Health",
+      "category_id": "CAT-211",
+      "business_unit": "Consumer Health",
+      "estimated_value": "279000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Yusuf Novak",
+        "email": "yusuf.novak@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-01-26 09:00:00",
+      "updated_at": "2026-02-19 11:00:00",
+      "sla_due_date": "2026-03-12",
+      "linked_event_id": "Doc6100083"
+    },
+    {
+      "request_id": "REQ1001146",
+      "short_description": "IT hardware for R&D",
+      "category_id": "CAT-212",
+      "business_unit": "R&D",
+      "estimated_value": "287000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Hugo Silva",
+        "email": "hugo.silva@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-01-14 08:00:00",
+      "updated_at": "2026-02-26 10:00:00",
+      "sla_due_date": "2026-02-28",
+      "linked_event_id": "Doc6100082"
+    },
+    {
+      "request_id": "REQ1001147",
+      "short_description": "Software licences for Pharmaceuticals",
+      "category_id": "CAT-211",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "374000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Dubois",
+        "email": "mila.dubois@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-04-03 14:00:00",
+      "updated_at": "2026-05-07 16:00:00",
+      "sla_due_date": "2026-05-18",
+      "linked_event_id": "Doc6100149"
+    },
+    {
+      "request_id": "REQ1001148",
+      "short_description": "Lab consumables for R&D",
+      "category_id": "CAT-131",
+      "business_unit": "R&D",
+      "estimated_value": "613000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Paul Meyer",
+        "email": "paul.meyer@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-03-07 18:00:00",
+      "updated_at": "2026-04-05 20:00:00",
+      "sla_due_date": "2026-04-21",
+      "linked_event_id": "Doc6100061"
+    },
+    {
+      "request_id": "REQ1001149",
+      "short_description": "Legal services for MedTech",
+      "category_id": "CAT-222",
+      "business_unit": "MedTech",
+      "estimated_value": "316000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Noah Silva",
+        "email": "noah.silva@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-02-09 14:00:00",
+      "updated_at": "2026-02-21 14:00:00",
+      "sla_due_date": "2026-03-26",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001150",
+      "short_description": "Active pharmaceutical ingredients for Corporate",
+      "category_id": "CAT-111",
+      "business_unit": "Corporate",
+      "estimated_value": "394000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Tara Murphy",
+        "email": "tara.murphy@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-05-22 12:00:00",
+      "updated_at": "2026-05-24 12:00:00",
+      "sla_due_date": "2026-07-06",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001151",
+      "short_description": "Cold-chain freight for R&D",
+      "category_id": "CAT-251",
+      "business_unit": "R&D",
+      "estimated_value": "840000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ben Garcia",
+        "email": "ben.garcia@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-04-18 14:00:00",
+      "updated_at": "2026-05-27 16:00:00",
+      "sla_due_date": "2026-06-02",
+      "linked_event_id": "Doc6100114"
+    },
+    {
+      "request_id": "REQ1001152",
+      "short_description": "Cleaning and maintenance for Consumer Health",
+      "category_id": "CAT-231",
+      "business_unit": "Consumer Health",
+      "estimated_value": "622000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ben Meyer",
+        "email": "ben.meyer@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-09-01 09:00:00",
+      "updated_at": "2026-09-26 11:00:00",
+      "sla_due_date": "2026-10-16",
+      "linked_event_id": "Doc6100012"
+    },
+    {
+      "request_id": "REQ1001153",
+      "short_description": "Clinical trial services (CRO) for MedTech",
+      "category_id": "CAT-241",
+      "business_unit": "MedTech",
+      "estimated_value": "412000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ben Garcia",
+        "email": "ben.garcia@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-02-11 14:00:00",
+      "updated_at": "2026-03-06 16:00:00",
+      "sla_due_date": "2026-03-28",
+      "linked_event_id": "Doc6100179"
+    },
+    {
+      "request_id": "REQ1001154",
+      "short_description": "Lab equipment for R&D",
+      "category_id": "CAT-132",
+      "business_unit": "R&D",
+      "estimated_value": "594000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Jonas Schmidt",
+        "email": "jonas.schmidt@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-03-30 18:00:00",
+      "updated_at": "2026-04-08 18:00:00",
+      "sla_due_date": "2026-05-14",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001155",
+      "short_description": "Cold-chain freight for Consumer Health",
+      "category_id": "CAT-251",
+      "business_unit": "Consumer Health",
+      "estimated_value": "841000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Chen",
+        "email": "mila.chen@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-03-05 12:00:00",
+      "updated_at": "2026-04-01 14:00:00",
+      "sla_due_date": "2026-04-19",
+      "linked_event_id": "Doc6100097"
+    },
+    {
+      "request_id": "REQ1001156",
+      "short_description": "Cold-chain freight for Corporate",
+      "category_id": "CAT-251",
+      "business_unit": "Corporate",
+      "estimated_value": "209000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Noah Silva",
+        "email": "noah.silva@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-05-21 12:00:00",
+      "updated_at": "2026-06-07 12:00:00",
+      "sla_due_date": "2026-07-05",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001157",
+      "short_description": "Legal services for Corporate",
+      "category_id": "CAT-222",
+      "business_unit": "Corporate",
+      "estimated_value": "32000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Anna Patel",
+        "email": "anna.patel@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-08-07 09:00:00",
+      "updated_at": "2026-08-10 09:00:00",
+      "sla_due_date": "2026-09-21",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001158",
+      "short_description": "Clinical trial services (CRO) for R&D",
+      "category_id": "CAT-241",
+      "business_unit": "R&D",
+      "estimated_value": "821000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Felix Meyer",
+        "email": "felix.meyer@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-06-25 18:00:00",
+      "updated_at": "2026-08-02 20:00:00",
+      "sla_due_date": "2026-08-09",
+      "linked_event_id": "Doc6100104"
+    },
+    {
+      "request_id": "REQ1001159",
+      "short_description": "Lab consumables for R&D",
+      "category_id": "CAT-131",
+      "business_unit": "R&D",
+      "estimated_value": "147000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Anna Patel",
+        "email": "anna.patel@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2025-12-06 13:00:00",
+      "updated_at": "2026-01-03 15:00:00",
+      "sla_due_date": "2026-01-20",
+      "linked_event_id": "Doc6100174"
+    },
+    {
+      "request_id": "REQ1001160",
+      "short_description": "Cleaning and maintenance for MedTech",
+      "category_id": "CAT-231",
+      "business_unit": "MedTech",
+      "estimated_value": "737000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Yusuf Novak",
+        "email": "yusuf.novak@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-04-05 10:00:00",
+      "updated_at": "2026-05-13 12:00:00",
+      "sla_due_date": "2026-05-20",
+      "linked_event_id": "Doc6100176"
+    },
+    {
+      "request_id": "REQ1001161",
+      "short_description": "Software licences for Corporate",
+      "category_id": "CAT-211",
+      "business_unit": "Corporate",
+      "estimated_value": "495000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Carlos Larsen",
+        "email": "carlos.larsen@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-05-13 08:00:00",
+      "updated_at": "2026-05-23 08:00:00",
+      "sla_due_date": "2026-06-27",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001162",
+      "short_description": "Legal services for R&D",
+      "category_id": "CAT-222",
+      "business_unit": "R&D",
+      "estimated_value": "561000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Liam Miller",
+        "email": "liam.miller@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-05-25 15:00:00",
+      "updated_at": "2026-06-03 15:00:00",
+      "sla_due_date": "2026-07-09",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001163",
+      "short_description": "Active pharmaceutical ingredients for Corporate",
+      "category_id": "CAT-111",
+      "business_unit": "Corporate",
+      "estimated_value": "613000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Victor Brown",
+        "email": "victor.brown@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-05-04 18:00:00",
+      "updated_at": "2026-05-24 18:00:00",
+      "sla_due_date": "2026-06-18",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001164",
+      "short_description": "Cleaning and maintenance for MedTech",
+      "category_id": "CAT-231",
+      "business_unit": "MedTech",
+      "estimated_value": "678000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ines Okafor",
+        "email": "ines.okafor@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2025-12-14 08:00:00",
+      "updated_at": "2026-01-01 10:00:00",
+      "sla_due_date": "2026-01-28",
+      "linked_event_id": "Doc6100038"
+    },
+    {
+      "request_id": "REQ1001165",
+      "short_description": "Cleaning and maintenance for Corporate",
+      "category_id": "CAT-231",
+      "business_unit": "Corporate",
+      "estimated_value": "50000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Paul Meyer",
+        "email": "paul.meyer@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-05-01 09:00:00",
+      "updated_at": "2026-05-27 11:00:00",
+      "sla_due_date": "2026-06-15",
+      "linked_event_id": "Doc6100033"
+    },
+    {
+      "request_id": "REQ1001166",
+      "short_description": "Legal services for R&D",
+      "category_id": "CAT-222",
+      "business_unit": "R&D",
+      "estimated_value": "775000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Paul Meyer",
+        "email": "paul.meyer@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-09-27 17:00:00",
+      "updated_at": "2026-10-29 19:00:00",
+      "sla_due_date": "2026-11-11",
+      "linked_event_id": "Doc6100154"
+    },
+    {
+      "request_id": "REQ1001167",
+      "short_description": "Lab equipment for Pharmaceuticals",
+      "category_id": "CAT-132",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "269000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Grace Patel",
+        "email": "grace.patel@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-06-09 08:00:00",
+      "updated_at": "2026-07-23 10:00:00",
+      "sla_due_date": "2026-07-24",
+      "linked_event_id": "Doc6100134"
+    },
+    {
+      "request_id": "REQ1001168",
+      "short_description": "Secondary packaging (cartons, labels) for Corporate",
+      "category_id": "CAT-122",
+      "business_unit": "Corporate",
+      "estimated_value": "599000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Liam Miller",
+        "email": "liam.miller@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-07-20 18:00:00",
+      "updated_at": "2026-08-07 18:00:00",
+      "sla_due_date": "2026-09-03",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001169",
+      "short_description": "Clinical trial services (CRO) for Consumer Health",
+      "category_id": "CAT-241",
+      "business_unit": "Consumer Health",
+      "estimated_value": "405000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Carlos Larsen",
+        "email": "carlos.larsen@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-08-22 10:00:00",
+      "updated_at": "2026-09-17 12:00:00",
+      "sla_due_date": "2026-10-06",
+      "linked_event_id": "Doc6100050"
+    },
+    {
+      "request_id": "REQ1001170",
+      "short_description": "IT hardware for Corporate",
+      "category_id": "CAT-212",
+      "business_unit": "Corporate",
+      "estimated_value": "159000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Jonas Schmidt",
+        "email": "jonas.schmidt@samplepharma.example"
+      },
+      "status": "Sourcing",
+      "created_at": "2026-10-14 16:00:00",
+      "updated_at": "2026-10-26 18:00:00",
+      "sla_due_date": "2026-11-28",
+      "linked_event_id": "Doc6100122"
+    },
+    {
+      "request_id": "REQ1001171",
+      "short_description": "Lab equipment for Consumer Health",
+      "category_id": "CAT-132",
+      "business_unit": "Consumer Health",
+      "estimated_value": "430000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Noah Silva",
+        "email": "noah.silva@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2025-11-13 14:00:00",
+      "updated_at": "2025-11-27 14:00:00",
+      "sla_due_date": "2025-12-28",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001172",
+      "short_description": "Excipients for Consumer Health",
+      "category_id": "CAT-112",
+      "business_unit": "Consumer Health",
+      "estimated_value": "324000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Garcia",
+        "email": "mila.garcia@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2025-12-30 18:00:00",
+      "updated_at": "2026-01-08 18:00:00",
+      "sla_due_date": "2026-02-13",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001173",
+      "short_description": "Lab equipment for R&D",
+      "category_id": "CAT-132",
+      "business_unit": "R&D",
+      "estimated_value": "361000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Liam Miller",
+        "email": "liam.miller@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-06-22 10:00:00",
+      "updated_at": "2026-06-28 10:00:00",
+      "sla_due_date": "2026-08-06",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001174",
+      "short_description": "IT hardware for R&D",
+      "category_id": "CAT-212",
+      "business_unit": "R&D",
+      "estimated_value": "331000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Tara Patel",
+        "email": "tara.patel@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2025-12-20 14:00:00",
+      "updated_at": "2025-12-26 14:00:00",
+      "sla_due_date": "2026-02-03",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001175",
+      "short_description": "Excipients for Pharmaceuticals",
+      "category_id": "CAT-112",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "28000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Dubois",
+        "email": "mila.dubois@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-04-03 07:00:00",
+      "updated_at": "2026-04-14 07:00:00",
+      "sla_due_date": "2026-05-18",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001176",
+      "short_description": "Lab equipment for MedTech",
+      "category_id": "CAT-132",
+      "business_unit": "MedTech",
+      "estimated_value": "763000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Anna Patel",
+        "email": "anna.patel@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-09-28 08:00:00",
+      "updated_at": "2026-10-02 08:00:00",
+      "sla_due_date": "2026-11-12",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001177",
+      "short_description": "Secondary packaging (cartons, labels) for MedTech",
+      "category_id": "CAT-122",
+      "business_unit": "MedTech",
+      "estimated_value": "343000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ximena Okafor",
+        "email": "ximena.okafor@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-07-23 09:00:00",
+      "updated_at": "2026-08-22 11:00:00",
+      "sla_due_date": "2026-09-06",
+      "linked_event_id": "Doc6100031"
+    },
+    {
+      "request_id": "REQ1001178",
+      "short_description": "Management consulting for R&D",
+      "category_id": "CAT-221",
+      "business_unit": "R&D",
+      "estimated_value": "649000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Eva Weber",
+        "email": "eva.weber@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-06-07 14:00:00",
+      "updated_at": "2026-06-20 14:00:00",
+      "sla_due_date": "2026-07-22",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001179",
+      "short_description": "Primary packaging (vials, blisters) for R&D",
+      "category_id": "CAT-121",
+      "business_unit": "R&D",
+      "estimated_value": "410000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Anna Patel",
+        "email": "anna.patel@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-02-04 17:00:00",
+      "updated_at": "2026-03-25 19:00:00",
+      "sla_due_date": "2026-03-21",
+      "linked_event_id": "Doc6100075"
+    },
+    {
+      "request_id": "REQ1001180",
+      "short_description": "Active pharmaceutical ingredients for Corporate",
+      "category_id": "CAT-111",
+      "business_unit": "Corporate",
+      "estimated_value": "444000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Carlos Larsen",
+        "email": "carlos.larsen@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-09-11 10:00:00",
+      "updated_at": "2026-10-09 12:00:00",
+      "sla_due_date": "2026-10-26",
+      "linked_event_id": "Doc6100080"
+    },
+    {
+      "request_id": "REQ1001181",
+      "short_description": "Software licences for MedTech",
+      "category_id": "CAT-211",
+      "business_unit": "MedTech",
+      "estimated_value": "290000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Felix Meyer",
+        "email": "felix.meyer@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2025-11-03 18:00:00",
+      "updated_at": "2025-11-29 20:00:00",
+      "sla_due_date": "2025-12-18",
+      "linked_event_id": "Doc6100079"
+    },
+    {
+      "request_id": "REQ1001182",
+      "short_description": "Cold-chain freight for Corporate",
+      "category_id": "CAT-251",
+      "business_unit": "Corporate",
+      "estimated_value": "196000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Noah Silva",
+        "email": "noah.silva@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2025-12-03 16:00:00",
+      "updated_at": "2026-01-11 18:00:00",
+      "sla_due_date": "2026-01-17",
+      "linked_event_id": "Doc6100003"
+    },
+    {
+      "request_id": "REQ1001183",
+      "short_description": "Lab equipment for Pharmaceuticals",
+      "category_id": "CAT-132",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "273000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Carlos Larsen",
+        "email": "carlos.larsen@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-04-16 10:00:00",
+      "updated_at": "2026-04-17 10:00:00",
+      "sla_due_date": "2026-05-31",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001184",
+      "short_description": "Cleaning and maintenance for Consumer Health",
+      "category_id": "CAT-231",
+      "business_unit": "Consumer Health",
+      "estimated_value": "616000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Paul Meyer",
+        "email": "paul.meyer@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-07-09 15:00:00",
+      "updated_at": "2026-08-23 17:00:00",
+      "sla_due_date": "2026-08-23",
+      "linked_event_id": "Doc6100028"
+    },
+    {
+      "request_id": "REQ1001185",
+      "short_description": "Software licences for Pharmaceuticals",
+      "category_id": "CAT-211",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "361000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Kowalski",
+        "email": "mila.kowalski@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-09-09 13:00:00",
+      "updated_at": "2026-09-29 15:00:00",
+      "sla_due_date": "2026-10-24",
+      "linked_event_id": "Doc6100159"
+    },
+    {
+      "request_id": "REQ1001186",
+      "short_description": "Lab equipment for Consumer Health",
+      "category_id": "CAT-132",
+      "business_unit": "Consumer Health",
+      "estimated_value": "634000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Hugo Silva",
+        "email": "hugo.silva@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-06-23 16:00:00",
+      "updated_at": "2026-07-04 16:00:00",
+      "sla_due_date": "2026-08-07",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001187",
+      "short_description": "Legal services for Consumer Health",
+      "category_id": "CAT-222",
+      "business_unit": "Consumer Health",
+      "estimated_value": "125000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Garcia",
+        "email": "mila.garcia@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2025-12-14 17:00:00",
+      "updated_at": "2026-01-08 19:00:00",
+      "sla_due_date": "2026-01-28",
+      "linked_event_id": "Doc6100124"
+    },
+    {
+      "request_id": "REQ1001188",
+      "short_description": "Secondary packaging (cartons, labels) for Consumer Health",
+      "category_id": "CAT-122",
+      "business_unit": "Consumer Health",
+      "estimated_value": "715000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Hugo Silva",
+        "email": "hugo.silva@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-04-06 08:00:00",
+      "updated_at": "2026-04-11 08:00:00",
+      "sla_due_date": "2026-05-21",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001189",
+      "short_description": "Primary packaging (vials, blisters) for Corporate",
+      "category_id": "CAT-121",
+      "business_unit": "Corporate",
+      "estimated_value": "146000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Noah Dubois",
+        "email": "noah.dubois@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-07-20 13:00:00",
+      "updated_at": "2026-08-31 15:00:00",
+      "sla_due_date": "2026-09-03",
+      "linked_event_id": "Doc6100057"
+    },
+    {
+      "request_id": "REQ1001190",
+      "short_description": "Legal services for R&D",
+      "category_id": "CAT-222",
+      "business_unit": "R&D",
+      "estimated_value": "655000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Hugo Silva",
+        "email": "hugo.silva@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-05-16 13:00:00",
+      "updated_at": "2026-05-19 13:00:00",
+      "sla_due_date": "2026-06-30",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001191",
+      "short_description": "Management consulting for MedTech",
+      "category_id": "CAT-221",
+      "business_unit": "MedTech",
+      "estimated_value": "506000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ximena Okafor",
+        "email": "ximena.okafor@samplepharma.example"
+      },
+      "status": "Sourcing",
+      "created_at": "2026-09-27 09:00:00",
+      "updated_at": "2026-09-30 11:00:00",
+      "sla_due_date": "2026-11-11",
+      "linked_event_id": "Doc6100128"
+    },
+    {
+      "request_id": "REQ1001192",
+      "short_description": "Lab consumables for R&D",
+      "category_id": "CAT-131",
+      "business_unit": "R&D",
+      "estimated_value": "639000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ben Garcia",
+        "email": "ben.garcia@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-01-11 09:00:00",
+      "updated_at": "2026-03-02 11:00:00",
+      "sla_due_date": "2026-02-25",
+      "linked_event_id": "Doc6100147"
+    },
+    {
+      "request_id": "REQ1001193",
+      "short_description": "Active pharmaceutical ingredients for MedTech",
+      "category_id": "CAT-111",
+      "business_unit": "MedTech",
+      "estimated_value": "204000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ben Kowalski",
+        "email": "ben.kowalski@samplepharma.example"
+      },
+      "status": "In Review",
+      "created_at": "2026-05-03 07:00:00",
+      "updated_at": "2026-05-21 07:00:00",
+      "sla_due_date": "2026-06-17",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001194",
+      "short_description": "Software licences for R&D",
+      "category_id": "CAT-211",
+      "business_unit": "R&D",
+      "estimated_value": "423000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Paul Meyer",
+        "email": "paul.meyer@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-08-15 15:00:00",
+      "updated_at": "2026-08-19 15:00:00",
+      "sla_due_date": "2026-09-29",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001195",
+      "short_description": "Cleaning and maintenance for R&D",
+      "category_id": "CAT-231",
+      "business_unit": "R&D",
+      "estimated_value": "505000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Jonas Schmidt",
+        "email": "jonas.schmidt@samplepharma.example"
+      },
+      "status": "Cancelled",
+      "created_at": "2026-07-10 13:00:00",
+      "updated_at": "2026-07-17 13:00:00",
+      "sla_due_date": "2026-08-24",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1001196",
+      "short_description": "Primary packaging (vials, blisters) for MedTech",
+      "category_id": "CAT-121",
+      "business_unit": "MedTech",
+      "estimated_value": "304000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Grace Patel",
+        "email": "grace.patel@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2025-12-13 16:00:00",
+      "updated_at": "2026-01-11 18:00:00",
+      "sla_due_date": "2026-01-27",
+      "linked_event_id": "Doc6100027"
+    },
+    {
+      "request_id": "REQ1001197",
+      "short_description": "Active pharmaceutical ingredients for Consumer Health",
+      "category_id": "CAT-111",
+      "business_unit": "Consumer Health",
+      "estimated_value": "177000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Ximena Okafor",
+        "email": "ximena.okafor@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-03-21 10:00:00",
+      "updated_at": "2026-04-28 12:00:00",
+      "sla_due_date": "2026-05-05",
+      "linked_event_id": "Doc6100020"
+    },
+    {
+      "request_id": "REQ1001198",
+      "short_description": "Cold-chain freight for R&D",
+      "category_id": "CAT-251",
+      "business_unit": "R&D",
+      "estimated_value": "567000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Tara Patel",
+        "email": "tara.patel@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2026-06-23 16:00:00",
+      "updated_at": "2026-07-31 18:00:00",
+      "sla_due_date": "2026-08-07",
+      "linked_event_id": "Doc6100160"
+    },
+    {
+      "request_id": "REQ1001199",
+      "short_description": "Management consulting for Consumer Health",
+      "category_id": "CAT-221",
+      "business_unit": "Consumer Health",
+      "estimated_value": "798000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Noah Silva",
+        "email": "noah.silva@samplepharma.example"
+      },
+      "status": "Awarded",
+      "created_at": "2025-12-28 16:00:00",
+      "updated_at": "2026-02-02 18:00:00",
+      "sla_due_date": "2026-02-11",
+      "linked_event_id": "Doc6100034"
+    },
+    {
+      "request_id": "REQ1001200",
+      "short_description": "Management consulting for Pharmaceuticals",
+      "category_id": "CAT-221",
+      "business_unit": "Pharmaceuticals",
+      "estimated_value": "783000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Tara Murphy",
+        "email": "tara.murphy@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-05-07 15:00:00",
+      "updated_at": "2026-05-10 15:00:00",
+      "sla_due_date": "2026-06-21",
+      "linked_event_id": ""
+    }
+  ],
+  "meta": {
+    "page": 2,
+    "page_size": 100,
+    "total": 300,
+    "next_page": 3
+  }
+}

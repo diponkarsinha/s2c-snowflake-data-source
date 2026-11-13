@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope sender="Sample Pharma Treasury" subject="Monthly average rates (rate type M), 1 EUR = rate x currency">
+  <Cube time="2025-01">
+    <Cube currency="USD" rate="1.0789" rateType="M"/>
+    <Cube currency="GBP" rate="0.8428" rateType="M"/>
+    <Cube currency="CHF" rate="0.9614" rateType="M"/>
+    <Cube currency="CNY" rate="7.7766" rateType="M"/>
+    <Cube currency="INR" rate="89.6400" rateType="M"/>
+  </Cube>
+  <Cube time="2025-02">
+    <Cube currency="USD" rate="1.0800" rateType="M"/>
+    <Cube currency="GBP" rate="0.8437" rateType="M"/>
+    <Cube currency="CHF" rate="0.9623" rateType="M"/>
+    <Cube currency="CNY" rate="7.7844" rateType="M"/>
+    <Cube currency="INR" rate="89.7300" rateType="M"/>
+  </Cube>
+  <Cube time="2025-03">
+    <Cube currency="USD" rate="1.0811" rateType="M"/>
+    <Cube currency="GBP" rate="0.8445" rateType="M"/>
+    <Cube currency="CHF" rate="0.9633" rateType="M"/>
+    <Cube currency="CNY" rate="7.7922" rateType="M"/>
+    <Cube currency="INR" rate="89.8200" rateType="M"/>
+  </Cube>
+  <Cube time="2025-04">
+    <Cube currency="USD" rate="1.0822" rateType="M"/>
+    <Cube currency="GBP" rate="0.8454" rateType="M"/>
+    <Cube currency="CHF" rate="0.9642" rateType="M"/>
+    <Cube currency="CNY" rate="7.8000" rateType="M"/>
+    <Cube currency="INR" rate="89.9100" rateType="M"/>
+  </Cube>
+  <Cube time="2025-05">
+    <Cube currency="USD" rate="1.0832" rateType="M"/>
+    <Cube currency="GBP" rate="0.8462" rateType="M"/>
+    <Cube currency="CHF" rate="0.9652" rateType="M"/>
+    <Cube currency="CNY" rate="7.8078" rateType="M"/>
+    <Cube currency="INR" rate="90.0000" rateType="M"/>
+  </Cube>
+  <Cube time="2025-06">
+    <Cube currency="USD" rate="1.0843" rateType="M"/>
+    <Cube currency="GBP" rate="0.8471" rateType="M"/>
+    <Cube currency="CHF" rate="0.9661" rateType="M"/>
+    <Cube currency="CNY" rate="7.8156" rateType="M"/>
+    <Cube currency="INR" rate="90.0900" rateType="M"/>
+  </Cube>
+  <Cube time="2025-07">
+    <Cube currency="USD" rate="1.0854" rateType="M"/>
+    <Cube currency="GBP" rate="0.8480" rateType="M"/>
+    <Cube currency="CHF" rate="0.9671" rateType="M"/>
+    <Cube currency="CNY" rate="7.8234" rateType="M"/>
+    <Cube currency="INR" rate="90.1800" rateType="M"/>
+  </Cube>
+  <Cube time="2025-08">
+    <Cube currency="USD" rate="1.0865" rateType="M"/>
+    <Cube currency="GBP" rate="0.8488" rateType="M"/>
+    <Cube currency="CHF" rate="0.9680" rateType="M"/>
+    <Cube currency="CNY" rate="7.8312" rateType="M"/>
+    <Cube currency="INR" rate="90.2700" rateType="M"/>
+  </Cube>
+  <Cube time="2025-09">
+    <Cube currency="USD" rate="1.0876" rateType="M"/>
+    <Cube currency="GBP" rate="0.8497" rateType="M"/>
+    <Cube currency="CHF" rate="0.9310" rateType="M"/>
+    <Cube currency="CNY" rate="7.8390" rateType="M"/>
+    <Cube currency="INR" rate="90.3600" rateType="M"/>
+  </Cube>
+  <Cube time="2025-10">
+    <Cube currency="USD" rate="1.0789" rateType="M"/>
+    <Cube currency="GBP" rate="0.8428" rateType="M"/>
+    <Cube currency="CHF" rate="0.9614" rateType="M"/>
+    <Cube currency="CNY" rate="7.7766" rateType="M"/>
+    <Cube currency="INR" rate="89.6400" rateType="M"/>
+  </Cube>
+  <Cube time="2025-11">
+    <Cube currency="USD" rate="1.0800" rateType="M"/>
+    <Cube currency="GBP" rate="0.8437" rateType="M"/>
+    <Cube currency="CHF" rate="0.9623" rateType="M"/>
+    <Cube currency="CNY" rate="7.7844" rateType="M"/>
+    <Cube currency="INR" rate="89.7300" rateType="M"/>
+  </Cube>
+  <Cube time="2025-12">
+    <Cube currency="USD" rate="1.0811" rateType="M"/>
+    <Cube currency="GBP" rate="0.8445" rateType="M"/>
+    <Cube currency="CHF" rate="0.9633" rateType="M"/>
+    <Cube currency="CNY" rate="7.7922" rateType="M"/>
+    <Cube currency="INR" rate="89.8200" rateType="M"/>
+  </Cube>
+  <Cube time="2026-01">
+    <Cube currency="USD" rate="1.0800" rateType="M"/>
+    <Cube currency="GBP" rate="0.8437" rateType="M"/>
+    <Cube currency="CHF" rate="0.9623" rateType="M"/>
+    <Cube currency="CNY" rate="7.7844" rateType="M"/>
+    <Cube currency="INR" rate="89.7300" rateType="M"/>
+  </Cube>
+  <Cube time="2026-02">
+    <Cube currency="USD" rate="1.0811" rateType="M"/>
+    <Cube currency="GBP" rate="0.8445" rateType="M"/>
+    <Cube currency="CHF" rate="0.9633" rateType="M"/>
+    <Cube currency="CNY" rate="7.7922" rateType="M"/>
+    <Cube currency="INR" rate="89.8200" rateType="M"/>
+  </Cube>
+  <Cube time="2026-03">
+    <Cube currency="USD" rate="1.0822" rateType="M"/>
+    <Cube currency="GBP" rate="0.8454" rateType="M"/>
+    <Cube currency="CHF" rate="0.9642" rateType="M"/>
+    <Cube currency="CNY" rate="7.8000" rateType="M"/>
+    <Cube currency="INR" rate="89.9100" rateType="M"/>
+  </Cube>
+  <Cube time="2026-04">
+    <Cube currency="USD" rate="1.0832" rateType="M"/>
+    <Cube currency="GBP" rate="0.8462" rateType="M"/>
+    <Cube currency="CHF" rate="0.9652" rateType="M"/>
+    <Cube currency="CNY" rate="7.8078" rateType="M"/>
+    <Cube currency="INR" rate="90.0000" rateType="M"/>
+  </Cube>
+  <Cube time="2026-05">
+    <Cube currency="USD" rate="1.0843" rateType="M"/>
+    <Cube currency="GBP" rate="0.8471" rateType="M"/>
+    <Cube currency="CHF" rate="0.9661" rateType="M"/>
+    <Cube currency="CNY" rate="7.8156" rateType="M"/>
+    <Cube currency="INR" rate="90.0900" rateType="M"/>
+  </Cube>
+  <Cube time="2026-06">
+    <Cube currency="USD" rate="1.0854" rateType="M"/>
+    <Cube currency="GBP" rate="0.8480" rateType="M"/>
+    <Cube currency="CHF" rate="0.9671" rateType="M"/>
+    <Cube currency="CNY" rate="7.8234" rateType="M"/>
+    <Cube currency="INR" rate="90.1800" rateType="M"/>
+  </Cube>
+  <Cube time="2026-07">
+    <Cube currency="USD" rate="1.0865" rateType="M"/>
+    <Cube currency="GBP" rate="0.8488" rateType="M"/>
+    <Cube currency="CHF" rate="0.9680" rateType="M"/>
+    <Cube currency="CNY" rate="7.8312" rateType="M"/>
+    <Cube currency="INR" rate="90.2700" rateType="M"/>
+  </Cube>
+  <Cube time="2026-08">
+    <Cube currency="USD" rate="1.0876" rateType="M"/>
+    <Cube currency="GBP" rate="0.8497" rateType="M"/>
+    <Cube currency="CHF" rate="0.9310" rateType="M"/>
+    <Cube currency="CNY" rate="7.8390" rateType="M"/>
+  </Cube>
+  <Cube time="2026-09">
+    <Cube currency="USD" rate="1.0886" rateType="M"/>
+    <Cube currency="GBP" rate="0.8505" rateType="M"/>
+    <Cube currency="CHF" rate="0.9319" rateType="M"/>
+    <Cube currency="CNY" rate="7.8468" rateType="M"/>
+    <Cube currency="INR" rate="90.4500" rateType="M"/>
+  </Cube>
+  <Cube time="2026-10">
+    <Cube currency="USD" rate="1.0800" rateType="M"/>
+    <Cube currency="GBP" rate="0.8437" rateType="M"/>
+    <Cube currency="CHF" rate="0.9623" rateType="M"/>
+    <Cube currency="CNY" rate="7.7844" rateType="M"/>
+    <Cube currency="INR" rate="89.7300" rateType="M"/>
+  </Cube>
+</Envelope>

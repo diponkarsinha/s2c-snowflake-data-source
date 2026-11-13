@@ -1,0 +1,3237 @@
+{
+  "provider": "RiskCo Intelligence (fictional)",
+  "generatedAt": "2026-10-26T05:00:00Z",
+  "schemaVersion": "1.0",
+  "suppliers": [
+    {
+      "supplier": {
+        "name": "Cobalt Chemicals GmbH",
+        "vatNumber": "DE909134796",
+        "dunsNumber": "329509408",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 57,
+        "failureScore": 27
+      },
+      "esg": {
+        "ecovadisScore": 76,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-03-21",
+      "nextReviewDue": "2027-03-21"
+    },
+    {
+      "supplier": {
+        "name": "Cobalt Consulting Ltd",
+        "vatNumber": "IE743576792",
+        "dunsNumber": "929653607",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 52,
+        "failureScore": 23
+      },
+      "esg": {
+        "ecovadisScore": 52,
+        "medal": null
+      },
+      "assessedAt": "2025-10-16",
+      "nextReviewDue": "2026-10-16"
+    },
+    {
+      "supplier": {
+        "name": "Meridian Logistics GmbH",
+        "vatNumber": "DE960514523",
+        "dunsNumber": "739362057",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 66,
+        "failureScore": 28
+      },
+      "esg": {
+        "ecovadisScore": 80,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-10-20",
+      "nextReviewDue": "2027-10-20"
+    },
+    {
+      "supplier": {
+        "name": "Helix Consulting GmbH",
+        "vatNumber": "DE996139578",
+        "dunsNumber": "236843584",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 77,
+        "failureScore": 10
+      },
+      "esg": {
+        "ecovadisScore": 68,
+        "medal": null
+      },
+      "assessedAt": "2026-01-16",
+      "nextReviewDue": "2027-01-16"
+    },
+    {
+      "supplier": {
+        "name": "Aurora Freight Inc",
+        "vatNumber": "US935504321",
+        "dunsNumber": "977130288",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 8,
+        "paydex": 54,
+        "failureScore": 66
+      },
+      "esg": {
+        "ecovadisScore": 82,
+        "medal": "Silver"
+      },
+      "assessedAt": "2025-07-27",
+      "nextReviewDue": "2026-07-27"
+    },
+    {
+      "supplier": {
+        "name": "Ironwood Engineering GmbH",
+        "vatNumber": "DE795411453",
+        "dunsNumber": "797115550",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 77,
+        "failureScore": 61
+      },
+      "esg": {
+        "ecovadisScore": 61,
+        "medal": null
+      },
+      "assessedAt": "2026-02-02",
+      "nextReviewDue": "2027-02-02"
+    },
+    {
+      "supplier": {
+        "name": "Clearwater Labs Inc",
+        "vatNumber": "US656307931",
+        "dunsNumber": "861639583",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 72,
+        "failureScore": 92
+      },
+      "esg": {
+        "ecovadisScore": 75,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-05-04",
+      "nextReviewDue": "2027-05-04"
+    },
+    {
+      "supplier": {
+        "name": "Quantum Consulting SA",
+        "vatNumber": "FR702764446",
+        "dunsNumber": "726563708",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 47,
+        "failureScore": 72
+      },
+      "esg": {
+        "ecovadisScore": 73,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-09-29",
+      "nextReviewDue": "2026-09-29"
+    },
+    {
+      "supplier": {
+        "name": "Pinnacle Chemicals AG",
+        "vatNumber": "CH508431021",
+        "dunsNumber": "909037759",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 70,
+        "failureScore": 36
+      },
+      "esg": {
+        "ecovadisScore": 54,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-08-07",
+      "nextReviewDue": "2026-08-07"
+    },
+    {
+      "supplier": {
+        "name": "Nordic Clinical Services BV",
+        "vatNumber": "NL222500131",
+        "dunsNumber": "719571745",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 54,
+        "failureScore": 14
+      },
+      "esg": {
+        "ecovadisScore": 32,
+        "medal": null
+      },
+      "assessedAt": "2025-09-02",
+      "nextReviewDue": "2026-09-02"
+    },
+    {
+      "supplier": {
+        "name": "Nordic IT Services Ltd",
+        "vatNumber": "GB727255918",
+        "dunsNumber": "269042105",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 79,
+        "failureScore": 89
+      },
+      "esg": {
+        "ecovadisScore": 53,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-07-01",
+      "nextReviewDue": "2027-07-01"
+    },
+    {
+      "supplier": {
+        "name": "Granite Solutions Ltd",
+        "vatNumber": "GB396889215",
+        "dunsNumber": "994027897",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 43,
+        "failureScore": 17
+      },
+      "esg": {
+        "ecovadisScore": 68,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2025-06-08",
+      "nextReviewDue": "2026-06-08"
+    },
+    {
+      "supplier": {
+        "name": "Meridian Glassworks GmbH",
+        "vatNumber": "DE196961971",
+        "dunsNumber": "588322781",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 71,
+        "failureScore": 68
+      },
+      "esg": {
+        "ecovadisScore": 32,
+        "medal": null
+      },
+      "assessedAt": "2025-10-15",
+      "nextReviewDue": "2026-10-15"
+    },
+    {
+      "supplier": {
+        "name": "Zenith Chemicals Ltd",
+        "vatNumber": "GB239577989",
+        "dunsNumber": "809805235",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 51,
+        "failureScore": 91
+      },
+      "esg": {
+        "ecovadisScore": 40,
+        "medal": "Silver"
+      },
+      "assessedAt": "2025-06-18",
+      "nextReviewDue": "2026-06-18"
+    },
+    {
+      "supplier": {
+        "name": "Quantum Labs Inc",
+        "vatNumber": "US605196410",
+        "dunsNumber": "294872482",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 73,
+        "failureScore": 70
+      },
+      "esg": {
+        "ecovadisScore": 60,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-10-19",
+      "nextReviewDue": "2027-10-19"
+    },
+    {
+      "supplier": {
+        "name": "Lumen IT Services Inc",
+        "vatNumber": "US848933239",
+        "dunsNumber": "146865930",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 60,
+        "failureScore": 79
+      },
+      "esg": {
+        "ecovadisScore": 76,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-08-21",
+      "nextReviewDue": "2026-08-21"
+    },
+    {
+      "supplier": {
+        "name": "Harbor Clinical Services Pvt Ltd",
+        "vatNumber": "IN880697625",
+        "dunsNumber": "685698675",
+        "country": "IN"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 41,
+        "failureScore": 34
+      },
+      "esg": {
+        "ecovadisScore": 32,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-07-30",
+      "nextReviewDue": "2027-07-30"
+    },
+    {
+      "supplier": {
+        "name": "Crescent Pharma Supplies SA",
+        "vatNumber": "FR404133583",
+        "dunsNumber": "148766522",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 50,
+        "failureScore": 51
+      },
+      "esg": {
+        "ecovadisScore": 30,
+        "medal": "Gold"
+      },
+      "assessedAt": "2025-10-12",
+      "nextReviewDue": "2026-10-12"
+    },
+    {
+      "supplier": {
+        "name": "Summit Media Ltd",
+        "vatNumber": "IE993108266",
+        "dunsNumber": "971630639",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 76,
+        "failureScore": 45
+      },
+      "esg": {
+        "ecovadisScore": 39,
+        "medal": null
+      },
+      "assessedAt": "2025-09-14",
+      "nextReviewDue": "2026-01-20"
+    },
+    {
+      "supplier": {
+        "name": "Westbrook Packaging BV",
+        "vatNumber": "NL668503222",
+        "dunsNumber": "368018471",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 44,
+        "failureScore": 59
+      },
+      "esg": {
+        "ecovadisScore": 63,
+        "medal": null
+      },
+      "assessedAt": "2025-07-14",
+      "nextReviewDue": "2026-07-14"
+    },
+    {
+      "supplier": {
+        "name": "Clearwater Media GmbH",
+        "vatNumber": "DE500830389",
+        "dunsNumber": "470228863",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 44,
+        "failureScore": 29
+      },
+      "esg": {
+        "ecovadisScore": 50,
+        "medal": "Silver"
+      },
+      "assessedAt": "2025-12-03",
+      "nextReviewDue": "2026-12-03"
+    },
+    {
+      "supplier": {
+        "name": "Granite Glassworks AG",
+        "vatNumber": "CH214518079",
+        "dunsNumber": "417690559",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 52,
+        "failureScore": 70
+      },
+      "esg": {
+        "ecovadisScore": 66,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2025-11-21",
+      "nextReviewDue": "2026-11-21"
+    },
+    {
+      "supplier": {
+        "name": "Summit Solutions BV",
+        "vatNumber": "NL537656494",
+        "dunsNumber": "322086735",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 68,
+        "failureScore": 5
+      },
+      "esg": {
+        "ecovadisScore": 36,
+        "medal": null
+      },
+      "assessedAt": "2026-01-07",
+      "nextReviewDue": "2027-01-07"
+    },
+    {
+      "supplier": {
+        "name": "Harbor Logistics Ltd",
+        "vatNumber": "GB611365210",
+        "dunsNumber": "585337126",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 59,
+        "failureScore": 1
+      },
+      "esg": {
+        "ecovadisScore": 29,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-09-02",
+      "nextReviewDue": "2026-09-02"
+    },
+    {
+      "supplier": {
+        "name": "Ironwood Labs Pvt Ltd",
+        "vatNumber": "IN102314313",
+        "dunsNumber": "406284028",
+        "country": "IN"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 79,
+        "failureScore": 50
+      },
+      "esg": {
+        "ecovadisScore": 30,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-03-11",
+      "nextReviewDue": "2027-03-11"
+    },
+    {
+      "supplier": {
+        "name": "Northstar Instruments Co Ltd",
+        "vatNumber": "CN938842599",
+        "dunsNumber": "314061901",
+        "country": "CN"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 42,
+        "failureScore": 60
+      },
+      "esg": {
+        "ecovadisScore": 56,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-01-28",
+      "nextReviewDue": "2027-01-28"
+    },
+    {
+      "supplier": {
+        "name": "Quantum Biotech Inc",
+        "vatNumber": "US965960427",
+        "dunsNumber": "180852074",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 42,
+        "failureScore": 81
+      },
+      "esg": {
+        "ecovadisScore": 72,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-10-16",
+      "nextReviewDue": "2027-10-16"
+    },
+    {
+      "supplier": {
+        "name": "Aurora Solutions Pvt Ltd",
+        "vatNumber": "IN610702777",
+        "dunsNumber": "211134294",
+        "country": "IN"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 76,
+        "failureScore": 71
+      },
+      "esg": {
+        "ecovadisScore": 25,
+        "medal": null
+      },
+      "assessedAt": "2025-07-20",
+      "nextReviewDue": "2026-07-20"
+    },
+    {
+      "supplier": {
+        "name": "Helix Packaging AG",
+        "vatNumber": "CH644459924",
+        "dunsNumber": "582897882",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 62,
+        "failureScore": 30
+      },
+      "esg": {
+        "ecovadisScore": 40,
+        "medal": null
+      },
+      "assessedAt": "2025-12-27",
+      "nextReviewDue": "2026-12-27"
+    },
+    {
+      "supplier": {
+        "name": "Northstar Facilities BV",
+        "vatNumber": "NL934120892",
+        "dunsNumber": "267052653",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 47,
+        "failureScore": 52
+      },
+      "esg": {
+        "ecovadisScore": 70,
+        "medal": null
+      },
+      "assessedAt": "2026-06-07",
+      "nextReviewDue": "2027-06-07"
+    },
+    {
+      "supplier": {
+        "name": "Sapphire Solutions SA",
+        "vatNumber": "FR741180590",
+        "dunsNumber": "235209737",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 44,
+        "failureScore": 5
+      },
+      "esg": {
+        "ecovadisScore": 44,
+        "medal": "Silver"
+      },
+      "assessedAt": "2025-10-14",
+      "nextReviewDue": "2026-10-14"
+    },
+    {
+      "supplier": {
+        "name": "Clearwater Logistics AG",
+        "vatNumber": "CH586845604",
+        "dunsNumber": "324956459",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 47,
+        "failureScore": 63
+      },
+      "esg": {
+        "ecovadisScore": 40,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-03-06",
+      "nextReviewDue": "2027-03-06"
+    },
+    {
+      "supplier": {
+        "name": "Riverside Engineering Ltd",
+        "vatNumber": "IE758819288",
+        "dunsNumber": "990626742",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 44,
+        "failureScore": 94
+      },
+      "esg": {
+        "ecovadisScore": 85,
+        "medal": null
+      },
+      "assessedAt": "2026-06-07",
+      "nextReviewDue": "2027-06-07"
+    },
+    {
+      "supplier": {
+        "name": "Meridian Consulting BV",
+        "vatNumber": "NL197613238",
+        "dunsNumber": "950488739",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 48,
+        "failureScore": 4
+      },
+      "esg": {
+        "ecovadisScore": 62,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2025-12-29",
+      "nextReviewDue": "2026-12-29"
+    },
+    {
+      "supplier": {
+        "name": "Quantum Chemicals NV",
+        "vatNumber": "BE824022357",
+        "dunsNumber": "921155204",
+        "country": "BE"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 77,
+        "failureScore": 20
+      },
+      "esg": {
+        "ecovadisScore": 43,
+        "medal": null
+      },
+      "assessedAt": "2025-12-25",
+      "nextReviewDue": "2026-12-25"
+    },
+    {
+      "supplier": {
+        "name": "Alpine Facilities GmbH",
+        "vatNumber": "DE525904456",
+        "dunsNumber": "360757540",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 45,
+        "failureScore": 82
+      },
+      "esg": {
+        "ecovadisScore": 78,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-10-03",
+      "nextReviewDue": "2027-10-03"
+    },
+    {
+      "supplier": {
+        "name": "Meridian Analytics SA",
+        "vatNumber": "FR528133274",
+        "dunsNumber": "814154134",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 61,
+        "failureScore": 31
+      },
+      "esg": {
+        "ecovadisScore": 40,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-08-04",
+      "nextReviewDue": "2027-08-04"
+    },
+    {
+      "supplier": {
+        "name": "Brightpath Instruments BV",
+        "vatNumber": "NL341206079",
+        "dunsNumber": "610173760",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 54,
+        "failureScore": 85
+      },
+      "esg": {
+        "ecovadisScore": 58,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-01-14",
+      "nextReviewDue": "2027-01-14"
+    },
+    {
+      "supplier": {
+        "name": "Keystone Labs GmbH",
+        "vatNumber": "DE392168202",
+        "dunsNumber": "574641329",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 8,
+        "paydex": 57,
+        "failureScore": 26
+      },
+      "esg": {
+        "ecovadisScore": 39,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-06-06",
+      "nextReviewDue": "2027-06-06"
+    },
+    {
+      "supplier": {
+        "name": "Quantum Labs NV",
+        "vatNumber": "BE179661615",
+        "dunsNumber": "495928981",
+        "country": "BE"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 41,
+        "failureScore": 90
+      },
+      "esg": {
+        "ecovadisScore": 25,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-04-24",
+      "nextReviewDue": "2027-04-24"
+    },
+    {
+      "supplier": {
+        "name": "Keystone Labs Ltd",
+        "vatNumber": "IE423646570",
+        "dunsNumber": "452318696",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 65,
+        "failureScore": 19
+      },
+      "esg": {
+        "ecovadisScore": 68,
+        "medal": null
+      },
+      "assessedAt": "2026-04-02",
+      "nextReviewDue": "2027-04-02"
+    },
+    {
+      "supplier": {
+        "name": "Oakridge Logistics GmbH",
+        "vatNumber": "DE881913386",
+        "dunsNumber": "675832441",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 45,
+        "failureScore": 92
+      },
+      "esg": {
+        "ecovadisScore": 44,
+        "medal": null
+      },
+      "assessedAt": "2026-06-05",
+      "nextReviewDue": "2027-06-05"
+    },
+    {
+      "supplier": {
+        "name": "Silverline Facilities AG",
+        "vatNumber": "CH943702118",
+        "dunsNumber": "574364121",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 47,
+        "failureScore": 35
+      },
+      "esg": {
+        "ecovadisScore": 50,
+        "medal": null
+      },
+      "assessedAt": "2026-02-02",
+      "nextReviewDue": "2027-02-02"
+    },
+    {
+      "supplier": {
+        "name": "Brightpath Freight Ltd",
+        "vatNumber": "IE981044229",
+        "dunsNumber": "527849588",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 76,
+        "failureScore": 33
+      },
+      "esg": {
+        "ecovadisScore": 74,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2025-06-19",
+      "nextReviewDue": "2026-06-19"
+    },
+    {
+      "supplier": {
+        "name": "Evergreen Glassworks GmbH",
+        "vatNumber": "DE601856351",
+        "dunsNumber": "735540030",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 72,
+        "failureScore": 92
+      },
+      "esg": {
+        "ecovadisScore": 68,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-06-15",
+      "nextReviewDue": "2027-06-15"
+    },
+    {
+      "supplier": {
+        "name": "Aurora IT Services Inc",
+        "vatNumber": "US572775194",
+        "dunsNumber": "875718152",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 58,
+        "failureScore": 83
+      },
+      "esg": {
+        "ecovadisScore": 35,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-03-25",
+      "nextReviewDue": "2027-03-25"
+    },
+    {
+      "supplier": {
+        "name": "Quantum Travel SA",
+        "vatNumber": "FR570040006",
+        "dunsNumber": "888699799",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 78,
+        "failureScore": 3
+      },
+      "esg": {
+        "ecovadisScore": 33,
+        "medal": null
+      },
+      "assessedAt": "2025-09-17",
+      "nextReviewDue": "2026-09-17"
+    },
+    {
+      "supplier": {
+        "name": "Keystone IT Services Ltd",
+        "vatNumber": "GB144232045",
+        "dunsNumber": "927878967",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 64,
+        "failureScore": 45
+      },
+      "esg": {
+        "ecovadisScore": 31,
+        "medal": null
+      },
+      "assessedAt": "2025-06-03",
+      "nextReviewDue": "2026-06-03"
+    },
+    {
+      "supplier": {
+        "name": "Oakridge Consulting Co Ltd",
+        "vatNumber": "CN413383963",
+        "dunsNumber": "607042130",
+        "country": "CN"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 41,
+        "failureScore": 77
+      },
+      "esg": {
+        "ecovadisScore": 32,
+        "medal": "Gold"
+      },
+      "assessedAt": "2025-06-08",
+      "nextReviewDue": "2026-06-08"
+    },
+    {
+      "supplier": {
+        "name": "Summit Chemicals BV",
+        "vatNumber": "NL935822550",
+        "dunsNumber": "598806645",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 69,
+        "failureScore": 44
+      },
+      "esg": {
+        "ecovadisScore": 32,
+        "medal": null
+      },
+      "assessedAt": "2026-05-24",
+      "nextReviewDue": "2026-05-18"
+    },
+    {
+      "supplier": {
+        "name": "Westbrook Solutions Ltd",
+        "vatNumber": "IE938422254",
+        "dunsNumber": "958287383",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 8,
+        "paydex": 69,
+        "failureScore": 61
+      },
+      "esg": {
+        "ecovadisScore": 65,
+        "medal": "Gold"
+      },
+      "assessedAt": "2025-11-13",
+      "nextReviewDue": "2026-11-13"
+    },
+    {
+      "supplier": {
+        "name": "Oakridge IT Services AG",
+        "vatNumber": "CH201474984",
+        "dunsNumber": "877103091",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 65,
+        "failureScore": 13
+      },
+      "esg": {
+        "ecovadisScore": 81,
+        "medal": "Silver"
+      },
+      "assessedAt": "2025-06-22",
+      "nextReviewDue": "2026-06-22"
+    },
+    {
+      "supplier": {
+        "name": "Quantum Clinical Services Ltd",
+        "vatNumber": "IE654724287",
+        "dunsNumber": "624606470",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 49,
+        "failureScore": 87
+      },
+      "esg": {
+        "ecovadisScore": 65,
+        "medal": null
+      },
+      "assessedAt": "2025-11-11",
+      "nextReviewDue": "2026-11-11"
+    },
+    {
+      "supplier": {
+        "name": "Alpine Pharma Supplies AG",
+        "vatNumber": "CH496115351",
+        "dunsNumber": "170596494",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 8,
+        "paydex": 78,
+        "failureScore": 87
+      },
+      "esg": {
+        "ecovadisScore": 52,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-03-18",
+      "nextReviewDue": "2027-03-18"
+    },
+    {
+      "supplier": {
+        "name": "Meridian Freight Co Ltd",
+        "vatNumber": "CN128636900",
+        "dunsNumber": "353164777",
+        "country": "CN"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 40,
+        "failureScore": 19
+      },
+      "esg": {
+        "ecovadisScore": 81,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-10-25",
+      "nextReviewDue": "2027-10-25"
+    },
+    {
+      "supplier": {
+        "name": "Northstar Packaging GmbH",
+        "vatNumber": "DE496776692",
+        "dunsNumber": "855420240",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 41,
+        "failureScore": 30
+      },
+      "esg": {
+        "ecovadisScore": 49,
+        "medal": null
+      },
+      "assessedAt": "2026-10-11",
+      "nextReviewDue": "2027-10-11"
+    },
+    {
+      "supplier": {
+        "name": "Crescent Clinical Services Pvt Ltd",
+        "vatNumber": "IN385042337",
+        "dunsNumber": "882269302",
+        "country": "IN"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 58,
+        "failureScore": 63
+      },
+      "esg": {
+        "ecovadisScore": 49,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-05-14",
+      "nextReviewDue": "2027-05-14"
+    },
+    {
+      "supplier": {
+        "name": "Nordic Biotech GmbH",
+        "vatNumber": "DE738923667",
+        "dunsNumber": "851333320",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 58,
+        "failureScore": 19
+      },
+      "esg": {
+        "ecovadisScore": 71,
+        "medal": "Silver"
+      },
+      "assessedAt": "2025-08-30",
+      "nextReviewDue": "2026-08-30"
+    },
+    {
+      "supplier": {
+        "name": "Vertex Glassworks NV",
+        "vatNumber": "BE950826208",
+        "dunsNumber": "235555899",
+        "country": "BE"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 77,
+        "failureScore": 57
+      },
+      "esg": {
+        "ecovadisScore": 85,
+        "medal": null
+      },
+      "assessedAt": "2026-09-24",
+      "nextReviewDue": "2027-09-24"
+    },
+    {
+      "supplier": {
+        "name": "Clearwater Packaging NV",
+        "vatNumber": "BE477040284",
+        "dunsNumber": "455569462",
+        "country": "BE"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 58,
+        "failureScore": 47
+      },
+      "esg": {
+        "ecovadisScore": 62,
+        "medal": null
+      },
+      "assessedAt": "2026-01-10",
+      "nextReviewDue": "2026-04-08"
+    },
+    {
+      "supplier": {
+        "name": "Clearwater Logistics NV",
+        "vatNumber": "BE644518647",
+        "dunsNumber": "848621833",
+        "country": "BE"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 43,
+        "failureScore": 7
+      },
+      "esg": {
+        "ecovadisScore": 34,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-06-16",
+      "nextReviewDue": "2026-06-16"
+    },
+    {
+      "supplier": {
+        "name": "Brightpath Travel Ltd",
+        "vatNumber": "GB461597989",
+        "dunsNumber": "294181873",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 77,
+        "failureScore": 45
+      },
+      "esg": {
+        "ecovadisScore": 44,
+        "medal": "Gold"
+      },
+      "assessedAt": "2025-06-19",
+      "nextReviewDue": "2026-06-19"
+    },
+    {
+      "supplier": {
+        "name": "Tandem Packaging Inc",
+        "vatNumber": "US673528321",
+        "dunsNumber": "389854268",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 56,
+        "failureScore": 18
+      },
+      "esg": {
+        "ecovadisScore": 76,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-04-19",
+      "nextReviewDue": "2027-04-19"
+    },
+    {
+      "supplier": {
+        "name": "Lumen Clinical Services Pvt Ltd",
+        "vatNumber": "IN784683755",
+        "dunsNumber": "394846763",
+        "country": "IN"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 56,
+        "failureScore": 27
+      },
+      "esg": {
+        "ecovadisScore": 51,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-10-21",
+      "nextReviewDue": "2026-10-21"
+    },
+    {
+      "supplier": {
+        "name": "Silverline Pharma Supplies Ltd",
+        "vatNumber": "GB670073085",
+        "dunsNumber": "455184454",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 41,
+        "failureScore": 73
+      },
+      "esg": {
+        "ecovadisScore": 58,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-07-09",
+      "nextReviewDue": "2026-07-09"
+    },
+    {
+      "supplier": {
+        "name": "Riverside Biotech Ltd",
+        "vatNumber": "IE184791618",
+        "dunsNumber": "634366139",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 8,
+        "paydex": 43,
+        "failureScore": 83
+      },
+      "esg": {
+        "ecovadisScore": 58,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-02-23",
+      "nextReviewDue": "2027-02-23"
+    },
+    {
+      "supplier": {
+        "name": "Harbor IT Services BV",
+        "vatNumber": "NL982971099",
+        "dunsNumber": "782454310",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 59,
+        "failureScore": 57
+      },
+      "esg": {
+        "ecovadisScore": 27,
+        "medal": null
+      },
+      "assessedAt": "2026-08-15",
+      "nextReviewDue": "2027-08-15"
+    },
+    {
+      "supplier": {
+        "name": "Keystone Glassworks Inc",
+        "vatNumber": "US630757561",
+        "dunsNumber": "956665975",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 40,
+        "failureScore": 57
+      },
+      "esg": {
+        "ecovadisScore": 43,
+        "medal": "Gold"
+      },
+      "assessedAt": "2025-12-20",
+      "nextReviewDue": "2026-12-20"
+    },
+    {
+      "supplier": {
+        "name": "Westbrook Consulting GmbH",
+        "vatNumber": "DE273497327",
+        "dunsNumber": "702269164",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 40,
+        "failureScore": 22
+      },
+      "esg": {
+        "ecovadisScore": 36,
+        "medal": "Gold"
+      },
+      "assessedAt": "2025-07-31",
+      "nextReviewDue": "2026-07-31"
+    },
+    {
+      "supplier": {
+        "name": "Vertex Analytics GmbH",
+        "vatNumber": "DE508244633",
+        "dunsNumber": "965650861",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 52,
+        "failureScore": 85
+      },
+      "esg": {
+        "ecovadisScore": 67,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-05-10",
+      "nextReviewDue": "2027-05-10"
+    },
+    {
+      "supplier": {
+        "name": "Crescent Engineering GmbH",
+        "vatNumber": "DE402533494",
+        "dunsNumber": "838194420",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 45,
+        "failureScore": 58
+      },
+      "esg": {
+        "ecovadisScore": 51,
+        "medal": null
+      },
+      "assessedAt": "2026-02-16",
+      "nextReviewDue": "2026-05-30"
+    },
+    {
+      "supplier": {
+        "name": "Tandem Facilities SA",
+        "vatNumber": "FR460613550",
+        "dunsNumber": "348315126",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 41,
+        "failureScore": 74
+      },
+      "esg": {
+        "ecovadisScore": 47,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-12-09",
+      "nextReviewDue": "2026-12-09"
+    },
+    {
+      "supplier": {
+        "name": "Granite Engineering SA",
+        "vatNumber": "FR840739735",
+        "dunsNumber": "500957212",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 63,
+        "failureScore": 35
+      },
+      "esg": {
+        "ecovadisScore": 68,
+        "medal": "Gold"
+      },
+      "assessedAt": "2025-08-10",
+      "nextReviewDue": "2026-08-10"
+    },
+    {
+      "supplier": {
+        "name": "Maple Consulting AG",
+        "vatNumber": "CH725711790",
+        "dunsNumber": "804433388",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 68,
+        "failureScore": 79
+      },
+      "esg": {
+        "ecovadisScore": 27,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-07-03",
+      "nextReviewDue": "2027-07-03"
+    },
+    {
+      "supplier": {
+        "name": "Crescent Engineering Ltd",
+        "vatNumber": "GB925276600",
+        "dunsNumber": "587182120",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 50,
+        "failureScore": 71
+      },
+      "esg": {
+        "ecovadisScore": 32,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-03-02",
+      "nextReviewDue": "2027-03-02"
+    },
+    {
+      "supplier": {
+        "name": "Alpine Biotech Ltd",
+        "vatNumber": "GB918630985",
+        "dunsNumber": "253815116",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 79,
+        "failureScore": 96
+      },
+      "esg": {
+        "ecovadisScore": 50,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2025-12-27",
+      "nextReviewDue": "2026-12-27"
+    },
+    {
+      "supplier": {
+        "name": "Silverline Media Co Ltd",
+        "vatNumber": "CN245737277",
+        "dunsNumber": "194264587",
+        "country": "CN"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 74,
+        "failureScore": 21
+      },
+      "esg": {
+        "ecovadisScore": 76,
+        "medal": null
+      },
+      "assessedAt": "2025-09-14",
+      "nextReviewDue": "2026-09-14"
+    },
+    {
+      "supplier": {
+        "name": "Sapphire Logistics Ltd",
+        "vatNumber": "IE889401015",
+        "dunsNumber": "463512350",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 46,
+        "failureScore": 18
+      },
+      "esg": {
+        "ecovadisScore": 76,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-05-29",
+      "nextReviewDue": "2027-05-29"
+    },
+    {
+      "supplier": {
+        "name": "Zenith Freight SA",
+        "vatNumber": "FR998386592",
+        "dunsNumber": "778556450",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 64,
+        "failureScore": 36
+      },
+      "esg": {
+        "ecovadisScore": 71,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-06-27",
+      "nextReviewDue": "2027-06-27"
+    },
+    {
+      "supplier": {
+        "name": "Westbrook Packaging Inc",
+        "vatNumber": "US776205431",
+        "dunsNumber": "630833445",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 56,
+        "failureScore": 60
+      },
+      "esg": {
+        "ecovadisScore": 60,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-10-05",
+      "nextReviewDue": "2027-10-05"
+    },
+    {
+      "supplier": {
+        "name": "Quantum Packaging NV",
+        "vatNumber": "BE870854579",
+        "dunsNumber": "790256940",
+        "country": "BE"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 61,
+        "failureScore": 7
+      },
+      "esg": {
+        "ecovadisScore": 60,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-06-27",
+      "nextReviewDue": "2027-06-27"
+    },
+    {
+      "supplier": {
+        "name": "Northstar Engineering BV",
+        "vatNumber": "NL897005281",
+        "dunsNumber": "761051532",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 44,
+        "failureScore": 84
+      },
+      "esg": {
+        "ecovadisScore": 80,
+        "medal": null
+      },
+      "assessedAt": "2026-05-28",
+      "nextReviewDue": "2027-05-28"
+    },
+    {
+      "supplier": {
+        "name": "Crescent Packaging NV",
+        "vatNumber": "BE417440983",
+        "dunsNumber": "278933456",
+        "country": "BE"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 76,
+        "failureScore": 75
+      },
+      "esg": {
+        "ecovadisScore": 61,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-04-10",
+      "nextReviewDue": "2027-04-10"
+    },
+    {
+      "supplier": {
+        "name": "Keystone Engineering Inc",
+        "vatNumber": "US735449477",
+        "dunsNumber": "770529419",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 77,
+        "failureScore": 75
+      },
+      "esg": {
+        "ecovadisScore": 81,
+        "medal": null
+      },
+      "assessedAt": "2026-09-23",
+      "nextReviewDue": "2027-09-23"
+    },
+    {
+      "supplier": {
+        "name": "Lumen Clinical Services BV",
+        "vatNumber": "NL347538338",
+        "dunsNumber": "918394863",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 40,
+        "failureScore": 19
+      },
+      "esg": {
+        "ecovadisScore": 58,
+        "medal": null
+      },
+      "assessedAt": "2026-08-17",
+      "nextReviewDue": "2027-08-17"
+    },
+    {
+      "supplier": {
+        "name": "Tandem Consulting Inc",
+        "vatNumber": "US210152642",
+        "dunsNumber": "572949775",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 56,
+        "failureScore": 31
+      },
+      "esg": {
+        "ecovadisScore": 58,
+        "medal": null
+      },
+      "assessedAt": "2026-05-09",
+      "nextReviewDue": "2027-05-09"
+    },
+    {
+      "supplier": {
+        "name": "Maple Facilities Inc",
+        "vatNumber": "US565973314",
+        "dunsNumber": "576396216",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 61,
+        "failureScore": 19
+      },
+      "esg": {
+        "ecovadisScore": 25,
+        "medal": "Silver"
+      },
+      "assessedAt": "2025-11-04",
+      "nextReviewDue": "2026-06-09"
+    },
+    {
+      "supplier": {
+        "name": "Pinnacle Labs BV",
+        "vatNumber": "NL593657365",
+        "dunsNumber": "534245762",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 76,
+        "failureScore": 16
+      },
+      "esg": {
+        "ecovadisScore": 59,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-07-25",
+      "nextReviewDue": "2027-07-25"
+    },
+    {
+      "supplier": {
+        "name": "Harbor Packaging GmbH",
+        "vatNumber": "DE173574218",
+        "dunsNumber": "533550699",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 73,
+        "failureScore": 5
+      },
+      "esg": {
+        "ecovadisScore": 74,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-10-04",
+      "nextReviewDue": "2026-10-04"
+    },
+    {
+      "supplier": {
+        "name": "Nordic Consulting Inc",
+        "vatNumber": "US191462297",
+        "dunsNumber": "751028618",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 42,
+        "failureScore": 44
+      },
+      "esg": {
+        "ecovadisScore": 37,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-12-28",
+      "nextReviewDue": "2026-12-28"
+    },
+    {
+      "supplier": {
+        "name": "Lumen Travel GmbH",
+        "vatNumber": "DE990189659",
+        "dunsNumber": "564520346",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 54,
+        "failureScore": 2
+      },
+      "esg": {
+        "ecovadisScore": 71,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-08-18",
+      "nextReviewDue": "2027-08-18"
+    },
+    {
+      "supplier": {
+        "name": "Nordic Engineering GmbH",
+        "vatNumber": "DE819421270",
+        "dunsNumber": "905611583",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 54,
+        "failureScore": 72
+      },
+      "esg": {
+        "ecovadisScore": 82,
+        "medal": null
+      },
+      "assessedAt": "2026-01-17",
+      "nextReviewDue": "2027-01-17"
+    },
+    {
+      "supplier": {
+        "name": "Meridian Pharma Supplies GmbH",
+        "vatNumber": "DE709074302",
+        "dunsNumber": "498320110",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 12,
+        "paydex": 67,
+        "failureScore": 82
+      },
+      "esg": {
+        "ecovadisScore": 55,
+        "medal": null
+      },
+      "assessedAt": "2025-06-20",
+      "nextReviewDue": "2026-06-20"
+    },
+    {
+      "supplier": {
+        "name": "Keystone Labs Inc",
+        "vatNumber": "US591819409",
+        "dunsNumber": "531233244",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 49,
+        "failureScore": 90
+      },
+      "esg": {
+        "ecovadisScore": 69,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-07-17",
+      "nextReviewDue": "2027-07-17"
+    },
+    {
+      "supplier": {
+        "name": "Oakridge Engineering Co Ltd",
+        "vatNumber": "CN448195935",
+        "dunsNumber": "964411347",
+        "country": "CN"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 41,
+        "failureScore": 43
+      },
+      "esg": {
+        "ecovadisScore": 25,
+        "medal": null
+      },
+      "assessedAt": "2025-10-04",
+      "nextReviewDue": "2026-10-04"
+    },
+    {
+      "supplier": {
+        "name": "Helix Travel Inc",
+        "vatNumber": "US172670118",
+        "dunsNumber": "695016134",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 69,
+        "failureScore": 5
+      },
+      "esg": {
+        "ecovadisScore": 63,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-09-12",
+      "nextReviewDue": "2026-09-12"
+    },
+    {
+      "supplier": {
+        "name": "Keystone Biotech Inc",
+        "vatNumber": "US403754671",
+        "dunsNumber": "156227043",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 59,
+        "failureScore": 45
+      },
+      "esg": {
+        "ecovadisScore": 84,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-10-10",
+      "nextReviewDue": "2027-10-10"
+    },
+    {
+      "supplier": {
+        "name": "Riverside Clinical Services Inc",
+        "vatNumber": "US991990632",
+        "dunsNumber": "905817775",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 77,
+        "failureScore": 15
+      },
+      "esg": {
+        "ecovadisScore": 81,
+        "medal": "Gold"
+      },
+      "assessedAt": "2025-06-26",
+      "nextReviewDue": "2026-06-26"
+    },
+    {
+      "supplier": {
+        "name": "Helix Facilities Inc",
+        "vatNumber": "US288592093",
+        "dunsNumber": "669998399",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 70,
+        "failureScore": 27
+      },
+      "esg": {
+        "ecovadisScore": 60,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-09-09",
+      "nextReviewDue": "2027-09-09"
+    },
+    {
+      "supplier": {
+        "name": "Lumen Consulting Pvt Ltd",
+        "vatNumber": "IN887906704",
+        "dunsNumber": "931764920",
+        "country": "IN"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 80,
+        "failureScore": 41
+      },
+      "esg": {
+        "ecovadisScore": 72,
+        "medal": null
+      },
+      "assessedAt": "2026-02-07",
+      "nextReviewDue": "2027-02-07"
+    },
+    {
+      "supplier": {
+        "name": "Meridian Biotech Inc",
+        "vatNumber": "US692975437",
+        "dunsNumber": "595475899",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 67,
+        "failureScore": 78
+      },
+      "esg": {
+        "ecovadisScore": 45,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-07-29",
+      "nextReviewDue": "2027-07-29"
+    },
+    {
+      "supplier": {
+        "name": "Westbrook Media BV",
+        "vatNumber": "NL247709679",
+        "dunsNumber": "645127678",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 50,
+        "failureScore": 73
+      },
+      "esg": {
+        "ecovadisScore": 49,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-09-16",
+      "nextReviewDue": "2027-09-16"
+    },
+    {
+      "supplier": {
+        "name": "Keystone Instruments Inc",
+        "vatNumber": "US583736219",
+        "dunsNumber": "427899537",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 50,
+        "failureScore": 92
+      },
+      "esg": {
+        "ecovadisScore": 55,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-07-24",
+      "nextReviewDue": "2027-07-24"
+    },
+    {
+      "supplier": {
+        "name": "Riverside Solutions Inc",
+        "vatNumber": "US807577342",
+        "dunsNumber": "882839238",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 71,
+        "failureScore": 97
+      },
+      "esg": {
+        "ecovadisScore": 27,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-02-26",
+      "nextReviewDue": "2027-02-26"
+    },
+    {
+      "supplier": {
+        "name": "Bluewater Packaging Inc",
+        "vatNumber": "US730900313",
+        "dunsNumber": "590523712",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 42,
+        "failureScore": 42
+      },
+      "esg": {
+        "ecovadisScore": 51,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-08-20",
+      "nextReviewDue": "2026-08-20"
+    },
+    {
+      "supplier": {
+        "name": "Granite Packaging AG",
+        "vatNumber": "CH322433532",
+        "dunsNumber": "452788129",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 46,
+        "failureScore": 34
+      },
+      "esg": {
+        "ecovadisScore": 29,
+        "medal": null
+      },
+      "assessedAt": "2026-04-25",
+      "nextReviewDue": "2026-07-13"
+    },
+    {
+      "supplier": {
+        "name": "Sapphire Media Inc",
+        "vatNumber": "US579476614",
+        "dunsNumber": "919128302",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 41,
+        "failureScore": 58
+      },
+      "esg": {
+        "ecovadisScore": 50,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-04-12",
+      "nextReviewDue": "2027-04-12"
+    },
+    {
+      "supplier": {
+        "name": "Meridian Pharma Supplies Ltd",
+        "vatNumber": "IE115191689",
+        "dunsNumber": "158546865",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 76,
+        "failureScore": 100
+      },
+      "esg": {
+        "ecovadisScore": 57,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-01-23",
+      "nextReviewDue": "2027-01-23"
+    },
+    {
+      "supplier": {
+        "name": "Clearwater Consulting GmbH",
+        "vatNumber": "DE939156387",
+        "dunsNumber": "797756796",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 80,
+        "failureScore": 96
+      },
+      "esg": {
+        "ecovadisScore": 52,
+        "medal": null
+      },
+      "assessedAt": "2025-08-27",
+      "nextReviewDue": "2026-08-27"
+    },
+    {
+      "supplier": {
+        "name": "Northstar Travel GmbH",
+        "vatNumber": "DE442648079",
+        "dunsNumber": "366200875",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 80,
+        "failureScore": 12
+      },
+      "esg": {
+        "ecovadisScore": 62,
+        "medal": null
+      },
+      "assessedAt": "2026-05-29",
+      "nextReviewDue": "2027-05-29"
+    },
+    {
+      "supplier": {
+        "name": "Brightpath Pharma Supplies Inc",
+        "vatNumber": "US856528252",
+        "dunsNumber": "185675980",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 57,
+        "failureScore": 24
+      },
+      "esg": {
+        "ecovadisScore": 80,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2025-06-08",
+      "nextReviewDue": "2026-06-08"
+    },
+    {
+      "supplier": {
+        "name": "Westbrook Freight Inc",
+        "vatNumber": "US432288618",
+        "dunsNumber": "494966219",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 56,
+        "failureScore": 94
+      },
+      "esg": {
+        "ecovadisScore": 67,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-02-02",
+      "nextReviewDue": "2027-02-02"
+    },
+    {
+      "supplier": {
+        "name": "Unity Engineering SA",
+        "vatNumber": "FR622559454",
+        "dunsNumber": "721890096",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 42,
+        "failureScore": 9
+      },
+      "esg": {
+        "ecovadisScore": 38,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-02-11",
+      "nextReviewDue": "2027-02-11"
+    },
+    {
+      "supplier": {
+        "name": "Westbrook Pharma Supplies Ltd",
+        "vatNumber": "GB752027025",
+        "dunsNumber": "433975497",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 58,
+        "failureScore": 10
+      },
+      "esg": {
+        "ecovadisScore": 37,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-02-25",
+      "nextReviewDue": "2027-02-25"
+    },
+    {
+      "supplier": {
+        "name": "Westbrook Facilities GmbH",
+        "vatNumber": "DE954942461",
+        "dunsNumber": "810303128",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 47,
+        "failureScore": 56
+      },
+      "esg": {
+        "ecovadisScore": 72,
+        "medal": null
+      },
+      "assessedAt": "2026-10-07",
+      "nextReviewDue": "2027-10-07"
+    },
+    {
+      "supplier": {
+        "name": "Oakridge Solutions Inc",
+        "vatNumber": "US763688866",
+        "dunsNumber": "411032572",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 44,
+        "failureScore": 14
+      },
+      "esg": {
+        "ecovadisScore": 72,
+        "medal": null
+      },
+      "assessedAt": "2026-07-29",
+      "nextReviewDue": "2027-07-29"
+    },
+    {
+      "supplier": {
+        "name": "Silverline Packaging Ltd",
+        "vatNumber": "GB392907427",
+        "dunsNumber": "198476695",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 50,
+        "failureScore": 4
+      },
+      "esg": {
+        "ecovadisScore": 53,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-09-16",
+      "nextReviewDue": "2027-09-16"
+    },
+    {
+      "supplier": {
+        "name": "Westbrook Engineering GmbH",
+        "vatNumber": "DE237859287",
+        "dunsNumber": "751325257",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 70,
+        "failureScore": 97
+      },
+      "esg": {
+        "ecovadisScore": 39,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-09-16",
+      "nextReviewDue": "2027-09-16"
+    },
+    {
+      "supplier": {
+        "name": "Helix Pharma Supplies BV",
+        "vatNumber": "NL442185272",
+        "dunsNumber": "247746438",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 57,
+        "failureScore": 42
+      },
+      "esg": {
+        "ecovadisScore": 84,
+        "medal": null
+      },
+      "assessedAt": "2026-04-16",
+      "nextReviewDue": "2027-04-16"
+    },
+    {
+      "supplier": {
+        "name": "Keystone Consulting Ltd",
+        "vatNumber": "IE156027635",
+        "dunsNumber": "210154881",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 68,
+        "failureScore": 25
+      },
+      "esg": {
+        "ecovadisScore": 29,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-08-02",
+      "nextReviewDue": "2027-08-02"
+    },
+    {
+      "supplier": {
+        "name": "Zenith Logistics SA",
+        "vatNumber": "FR798916441",
+        "dunsNumber": "561784080",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 74,
+        "failureScore": 42
+      },
+      "esg": {
+        "ecovadisScore": 62,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-07-11",
+      "nextReviewDue": "2027-07-11"
+    },
+    {
+      "supplier": {
+        "name": "Tandem Media NV",
+        "vatNumber": "BE925884151",
+        "dunsNumber": "789705810",
+        "country": "BE"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 70,
+        "failureScore": 82
+      },
+      "esg": {
+        "ecovadisScore": 71,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-07-18",
+      "nextReviewDue": "2027-07-18"
+    },
+    {
+      "supplier": {
+        "name": "Evergreen Clinical Services SA",
+        "vatNumber": "FR929517022",
+        "dunsNumber": "806157458",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 75,
+        "failureScore": 25
+      },
+      "esg": {
+        "ecovadisScore": 27,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-03-02",
+      "nextReviewDue": "2027-03-02"
+    },
+    {
+      "supplier": {
+        "name": "Granite Travel SA",
+        "vatNumber": "FR282204745",
+        "dunsNumber": "764926227",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 72,
+        "failureScore": 95
+      },
+      "esg": {
+        "ecovadisScore": 81,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-06-10",
+      "nextReviewDue": "2027-06-10"
+    },
+    {
+      "supplier": {
+        "name": "Lumen Analytics Pvt Ltd",
+        "vatNumber": "IN656670062",
+        "dunsNumber": "574637858",
+        "country": "IN"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 40,
+        "failureScore": 67
+      },
+      "esg": {
+        "ecovadisScore": 58,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-06-18",
+      "nextReviewDue": "2027-06-18"
+    },
+    {
+      "supplier": {
+        "name": "Zenith Engineering Inc",
+        "vatNumber": "US491079829",
+        "dunsNumber": "769108025",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 72,
+        "failureScore": 88
+      },
+      "esg": {
+        "ecovadisScore": 64,
+        "medal": null
+      },
+      "assessedAt": "2026-02-26",
+      "nextReviewDue": "2027-02-26"
+    },
+    {
+      "supplier": {
+        "name": "Nordic Logistics Inc",
+        "vatNumber": "US771641650",
+        "dunsNumber": "357553274",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 12,
+        "paydex": 58,
+        "failureScore": 52
+      },
+      "esg": {
+        "ecovadisScore": 76,
+        "medal": "Silver"
+      },
+      "assessedAt": "2025-10-11",
+      "nextReviewDue": "2026-10-11"
+    },
+    {
+      "supplier": {
+        "name": "Nordic Solutions NV",
+        "vatNumber": "BE438868427",
+        "dunsNumber": "608309128",
+        "country": "BE"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 44,
+        "failureScore": 60
+      },
+      "esg": {
+        "ecovadisScore": 38,
+        "medal": "Gold"
+      },
+      "assessedAt": "2025-11-22",
+      "nextReviewDue": "2026-11-22"
+    },
+    {
+      "supplier": {
+        "name": "Riverside Facilities Ltd",
+        "vatNumber": "GB122394554",
+        "dunsNumber": "594025283",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 74,
+        "failureScore": 59
+      },
+      "esg": {
+        "ecovadisScore": 38,
+        "medal": null
+      },
+      "assessedAt": "2026-06-22",
+      "nextReviewDue": "2027-06-22"
+    },
+    {
+      "supplier": {
+        "name": "Summit Instruments Pvt Ltd",
+        "vatNumber": "IN372706093",
+        "dunsNumber": "408842146",
+        "country": "IN"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 45,
+        "failureScore": 34
+      },
+      "esg": {
+        "ecovadisScore": 61,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-08-19",
+      "nextReviewDue": "2026-03-27"
+    },
+    {
+      "supplier": {
+        "name": "Maple Media GmbH",
+        "vatNumber": "DE914799481",
+        "dunsNumber": "185068029",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 45,
+        "failureScore": 25
+      },
+      "esg": {
+        "ecovadisScore": 53,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-09-04",
+      "nextReviewDue": "2026-09-04"
+    },
+    {
+      "supplier": {
+        "name": "Pinnacle Consulting Ltd",
+        "vatNumber": "GB190966348",
+        "dunsNumber": "973150512",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 8,
+        "paydex": 52,
+        "failureScore": 67
+      },
+      "esg": {
+        "ecovadisScore": 72,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-11-03",
+      "nextReviewDue": "2026-03-08"
+    },
+    {
+      "supplier": {
+        "name": "Riverside IT Services AG",
+        "vatNumber": "CH386874458",
+        "dunsNumber": "999232921",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 40,
+        "failureScore": 84
+      },
+      "esg": {
+        "ecovadisScore": 39,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-04-09",
+      "nextReviewDue": "2027-04-09"
+    },
+    {
+      "supplier": {
+        "name": "Sapphire Media Ltd",
+        "vatNumber": "IE242068763",
+        "dunsNumber": "942478695",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 76,
+        "failureScore": 15
+      },
+      "esg": {
+        "ecovadisScore": 66,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-01-22",
+      "nextReviewDue": "2027-01-22"
+    },
+    {
+      "supplier": {
+        "name": "Quantum Solutions NV",
+        "vatNumber": "BE437352358",
+        "dunsNumber": "422119408",
+        "country": "BE"
+      },
+      "scores": {
+        "financialRisk": 0,
+        "paydex": 66,
+        "failureScore": 33
+      },
+      "esg": {
+        "ecovadisScore": 62,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-03-21",
+      "nextReviewDue": "2027-03-21"
+    },
+    {
+      "supplier": {
+        "name": "Westbrook Biotech AG",
+        "vatNumber": "CH146914391",
+        "dunsNumber": "576954730",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 75,
+        "failureScore": 89
+      },
+      "esg": {
+        "ecovadisScore": 51,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-10-02",
+      "nextReviewDue": "2027-10-02"
+    },
+    {
+      "supplier": {
+        "name": "Nordic Facilities GmbH",
+        "vatNumber": "DE760756497",
+        "dunsNumber": "973465185",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 54,
+        "failureScore": 94
+      },
+      "esg": {
+        "ecovadisScore": 55,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2025-09-07",
+      "nextReviewDue": "2026-09-07"
+    },
+    {
+      "supplier": {
+        "name": "Northstar Labs GmbH",
+        "vatNumber": "DE325567963",
+        "dunsNumber": "536344399",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 71,
+        "failureScore": 90
+      },
+      "esg": {
+        "ecovadisScore": 74,
+        "medal": null
+      },
+      "assessedAt": "2025-11-13",
+      "nextReviewDue": "2026-05-25"
+    },
+    {
+      "supplier": {
+        "name": "Silverline Chemicals Co Ltd",
+        "vatNumber": "CN524993183",
+        "dunsNumber": "751124015",
+        "country": "CN"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 62,
+        "failureScore": 27
+      },
+      "esg": {
+        "ecovadisScore": 67,
+        "medal": "Silver"
+      },
+      "assessedAt": "2025-08-16",
+      "nextReviewDue": "2026-08-16"
+    },
+    {
+      "supplier": {
+        "name": "Silverline Media Inc",
+        "vatNumber": "US419367188",
+        "dunsNumber": "572022811",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 72,
+        "failureScore": 69
+      },
+      "esg": {
+        "ecovadisScore": 40,
+        "medal": null
+      },
+      "assessedAt": "2026-06-09",
+      "nextReviewDue": "2027-06-09"
+    },
+    {
+      "supplier": {
+        "name": "Evergreen Analytics AG",
+        "vatNumber": "CH409471503",
+        "dunsNumber": "139403247",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 52,
+        "failureScore": 51
+      },
+      "esg": {
+        "ecovadisScore": 56,
+        "medal": null
+      },
+      "assessedAt": "2025-11-27",
+      "nextReviewDue": "2026-11-27"
+    },
+    {
+      "supplier": {
+        "name": "Zenith Instruments Pvt Ltd",
+        "vatNumber": "IN945436943",
+        "dunsNumber": "605399561",
+        "country": "IN"
+      },
+      "scores": {
+        "financialRisk": 1,
+        "paydex": 55,
+        "failureScore": 32
+      },
+      "esg": {
+        "ecovadisScore": 57,
+        "medal": null
+      },
+      "assessedAt": "2025-07-23",
+      "nextReviewDue": "2026-07-23"
+    },
+    {
+      "supplier": {
+        "name": "Northstar Freight Ltd",
+        "vatNumber": "GB478557676",
+        "dunsNumber": "180574838",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 69,
+        "failureScore": 52
+      },
+      "esg": {
+        "ecovadisScore": 25,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-09-28",
+      "nextReviewDue": "2027-09-28"
+    },
+    {
+      "supplier": {
+        "name": "Lumen Solutions SA",
+        "vatNumber": "FR254263081",
+        "dunsNumber": "528118701",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 78,
+        "failureScore": 2
+      },
+      "esg": {
+        "ecovadisScore": 55,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-10-18",
+      "nextReviewDue": "2027-10-18"
+    },
+    {
+      "supplier": {
+        "name": "Pinnacle Packaging Inc",
+        "vatNumber": "US198524063",
+        "dunsNumber": "587098457",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 72,
+        "failureScore": 10
+      },
+      "esg": {
+        "ecovadisScore": 25,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-02-12",
+      "nextReviewDue": "2027-02-12"
+    },
+    {
+      "supplier": {
+        "name": "Northstar Clinical Services BV",
+        "vatNumber": "NL883543540",
+        "dunsNumber": "184611066",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 77,
+        "failureScore": 12
+      },
+      "esg": {
+        "ecovadisScore": 51,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2025-07-02",
+      "nextReviewDue": "2026-07-02"
+    },
+    {
+      "supplier": {
+        "name": "Crescent Media SA",
+        "vatNumber": "FR178910051",
+        "dunsNumber": "235497187",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 73,
+        "failureScore": 66
+      },
+      "esg": {
+        "ecovadisScore": 67,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2025-08-16",
+      "nextReviewDue": "2026-08-16"
+    },
+    {
+      "supplier": {
+        "name": "Summit Chemicals Pvt Ltd",
+        "vatNumber": "IN732276010",
+        "dunsNumber": "236105947",
+        "country": "IN"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 74,
+        "failureScore": 43
+      },
+      "esg": {
+        "ecovadisScore": 82,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-01-13",
+      "nextReviewDue": "2027-01-13"
+    },
+    {
+      "supplier": {
+        "name": "Quantum Travel Inc",
+        "vatNumber": "US154544899",
+        "dunsNumber": "147337803",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 75,
+        "failureScore": 20
+      },
+      "esg": {
+        "ecovadisScore": 75,
+        "medal": null
+      },
+      "assessedAt": "2026-01-15",
+      "nextReviewDue": "2027-01-15"
+    },
+    {
+      "supplier": {
+        "name": "Unity Clinical Services BV",
+        "vatNumber": "NL983063850",
+        "dunsNumber": "606244434",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 2,
+        "paydex": 73,
+        "failureScore": 13
+      },
+      "esg": {
+        "ecovadisScore": 42,
+        "medal": null
+      },
+      "assessedAt": "2026-09-02",
+      "nextReviewDue": "2027-09-02"
+    },
+    {
+      "supplier": {
+        "name": "Ironwood Analytics BV",
+        "vatNumber": "NL888807316",
+        "dunsNumber": "621454127",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 77,
+        "failureScore": 41
+      },
+      "esg": {
+        "ecovadisScore": 40,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2026-05-23",
+      "nextReviewDue": "2027-05-23"
+    },
+    {
+      "supplier": {
+        "name": "Keystone Consulting AG",
+        "vatNumber": "CH608482316",
+        "dunsNumber": "599326438",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 73,
+        "failureScore": 94
+      },
+      "esg": {
+        "ecovadisScore": 34,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-08-06",
+      "nextReviewDue": "2027-08-06"
+    },
+    {
+      "supplier": {
+        "name": "Alpine Biotech Co Ltd",
+        "vatNumber": "CN515524530",
+        "dunsNumber": "330393232",
+        "country": "CN"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 68,
+        "failureScore": 22
+      },
+      "esg": {
+        "ecovadisScore": 65,
+        "medal": null
+      },
+      "assessedAt": "2025-11-26",
+      "nextReviewDue": "2026-11-26"
+    },
+    {
+      "supplier": {
+        "name": "Unity Consulting Inc",
+        "vatNumber": "US773728014",
+        "dunsNumber": "135824891",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 45,
+        "failureScore": 44
+      },
+      "esg": {
+        "ecovadisScore": 52,
+        "medal": null
+      },
+      "assessedAt": "2026-07-30",
+      "nextReviewDue": "2027-07-30"
+    },
+    {
+      "supplier": {
+        "name": "Westbrook Packaging GmbH",
+        "vatNumber": "DE598165815",
+        "dunsNumber": "831361497",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 43,
+        "failureScore": 89
+      },
+      "esg": {
+        "ecovadisScore": 49,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2025-11-11",
+      "nextReviewDue": "2026-11-11"
+    },
+    {
+      "supplier": {
+        "name": "Meridian Media Inc",
+        "vatNumber": "US581223755",
+        "dunsNumber": "534222401",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 76,
+        "failureScore": 36
+      },
+      "esg": {
+        "ecovadisScore": 49,
+        "medal": null
+      },
+      "assessedAt": "2025-07-01",
+      "nextReviewDue": "2026-07-01"
+    },
+    {
+      "supplier": {
+        "name": "Northstar Engineering Co Ltd",
+        "vatNumber": "CN485123110",
+        "dunsNumber": "984968439",
+        "country": "CN"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 44,
+        "failureScore": 20
+      },
+      "esg": {
+        "ecovadisScore": 60,
+        "medal": "Silver"
+      },
+      "assessedAt": "2025-08-26",
+      "nextReviewDue": "2026-08-14"
+    },
+    {
+      "supplier": {
+        "name": "Ironwood Glassworks BV",
+        "vatNumber": "NL515156661",
+        "dunsNumber": "494435754",
+        "country": "NL"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 58,
+        "failureScore": 57
+      },
+      "esg": {
+        "ecovadisScore": 31,
+        "medal": "Silver"
+      },
+      "assessedAt": "2025-06-01",
+      "nextReviewDue": "2026-06-01"
+    },
+    {
+      "supplier": {
+        "name": "Maple Pharma Supplies AG",
+        "vatNumber": "CH213669678",
+        "dunsNumber": "184446671",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 75,
+        "failureScore": 26
+      },
+      "esg": {
+        "ecovadisScore": 73,
+        "medal": null
+      },
+      "assessedAt": "2025-11-10",
+      "nextReviewDue": "2026-11-10"
+    },
+    {
+      "supplier": {
+        "name": "Harbor Facilities Ltd",
+        "vatNumber": "IE369085407",
+        "dunsNumber": "234400576",
+        "country": "IE"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 68,
+        "failureScore": 40
+      },
+      "esg": {
+        "ecovadisScore": 57,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-03-19",
+      "nextReviewDue": "2027-03-19"
+    },
+    {
+      "supplier": {
+        "name": "Quantum Labs SA",
+        "vatNumber": "FR333291547",
+        "dunsNumber": "206681214",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 68,
+        "failureScore": 70
+      },
+      "esg": {
+        "ecovadisScore": 66,
+        "medal": "Bronze"
+      },
+      "assessedAt": "2025-12-08",
+      "nextReviewDue": "2026-12-08"
+    },
+    {
+      "supplier": {
+        "name": "Maple Labs SA",
+        "vatNumber": "FR744685429",
+        "dunsNumber": "328426553",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 9,
+        "paydex": 44,
+        "failureScore": 62
+      },
+      "esg": {
+        "ecovadisScore": 84,
+        "medal": null
+      },
+      "assessedAt": "2026-08-10",
+      "nextReviewDue": "2027-08-10"
+    },
+    {
+      "supplier": {
+        "name": "Summit Pharma Supplies Inc",
+        "vatNumber": "US679153816",
+        "dunsNumber": "120912992",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 69,
+        "failureScore": 53
+      },
+      "esg": {
+        "ecovadisScore": 26,
+        "medal": "Gold"
+      },
+      "assessedAt": "2025-10-12",
+      "nextReviewDue": "2026-10-12"
+    },
+    {
+      "supplier": {
+        "name": "Maple Solutions Inc",
+        "vatNumber": "US684719405",
+        "dunsNumber": "987588450",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 61,
+        "failureScore": 82
+      },
+      "esg": {
+        "ecovadisScore": 29,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2025-12-10",
+      "nextReviewDue": "2026-12-10"
+    },
+    {
+      "supplier": {
+        "name": "Evergreen Engineering GmbH",
+        "vatNumber": "DE773020489",
+        "dunsNumber": "352082631",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 6,
+        "paydex": 76,
+        "failureScore": 75
+      },
+      "esg": {
+        "ecovadisScore": 28,
+        "medal": "Platinum"
+      },
+      "assessedAt": "2026-07-23",
+      "nextReviewDue": "2027-07-23"
+    },
+    {
+      "supplier": {
+        "name": "Brightpath Facilities Ltd",
+        "vatNumber": "GB751831074",
+        "dunsNumber": "369108475",
+        "country": "GB"
+      },
+      "scores": {
+        "financialRisk": 4,
+        "paydex": 44,
+        "failureScore": 90
+      },
+      "esg": {
+        "ecovadisScore": 51,
+        "medal": "Silver"
+      },
+      "assessedAt": "2026-09-29",
+      "nextReviewDue": "2027-09-29"
+    },
+    {
+      "supplier": {
+        "name": "Harbor Freight SA",
+        "vatNumber": "FR341266931",
+        "dunsNumber": "347083812",
+        "country": "FR"
+      },
+      "scores": {
+        "financialRisk": 5,
+        "paydex": 54,
+        "failureScore": 54
+      },
+      "esg": {
+        "ecovadisScore": 50,
+        "medal": null
+      },
+      "assessedAt": "2026-02-13",
+      "nextReviewDue": "2027-02-13"
+    },
+    {
+      "supplier": {
+        "name": "Ironwood Instruments GmbH",
+        "vatNumber": "DE765055833",
+        "dunsNumber": "661333669",
+        "country": "DE"
+      },
+      "scores": {
+        "financialRisk": 8,
+        "paydex": 55,
+        "failureScore": 61
+      },
+      "esg": {
+        "ecovadisScore": 72,
+        "medal": null
+      },
+      "assessedAt": "2026-02-05",
+      "nextReviewDue": "2027-02-05"
+    },
+    {
+      "supplier": {
+        "name": "Bluewater Freight AG",
+        "vatNumber": "CH613818935",
+        "dunsNumber": "139711044",
+        "country": "CH"
+      },
+      "scores": {
+        "financialRisk": 7,
+        "paydex": 45,
+        "failureScore": 65
+      },
+      "esg": {
+        "ecovadisScore": 42,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-06-16",
+      "nextReviewDue": "2027-06-16"
+    },
+    {
+      "supplier": {
+        "name": "Alpine Packaging Inc",
+        "vatNumber": "US345824373",
+        "dunsNumber": "652070932",
+        "country": "US"
+      },
+      "scores": {
+        "financialRisk": 3,
+        "paydex": 68,
+        "failureScore": 62
+      },
+      "esg": {
+        "ecovadisScore": 70,
+        "medal": "Gold"
+      },
+      "assessedAt": "2026-05-17",
+      "nextReviewDue": "2027-05-17"
+    }
+  ]
+}
