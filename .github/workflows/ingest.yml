@@ -1,0 +1,53 @@
+# Uploads every new or changed file under data/ to Snowflake.
+# GitHub acts as the landing zone (like Azure ADLS would): it accepts anything.
+name: Ingest to Snowflake
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/**"]
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "all = upload every file under data/ (first load / after a reset)"
+        required: true
+        default: all
+        type: choice
+        options: [all]
+
+concurrency:
+  group: ingest-${{ github.ref }}
+  cancel-in-progress: false        # never cancel an upload half way
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+      SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+      SNOWFLAKE_PRIVATE_KEY: ${{ secrets.SNOWFLAKE_PRIVATE_KEY }}
+      SNOWFLAKE_PRIVATE_KEY_PASSPHRASE: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_PASSPHRASE }}
+      SNOWFLAKE_ROLE: S2C_LOADER
+      SNOWFLAKE_WAREHOUSE: S2C_WH
+      SNOWFLAKE_DATABASE: ${{ vars.SNOWFLAKE_DATABASE || 'S2C_DEV' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0             # full history so we can diff before..after
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Upload pushed files (push)
+        if: github.event_name == 'push'
+        run: python scripts/ingest_files.py --git-range "${{ github.event.before }}" "${{ github.sha }}"
+
+      - name: Upload every file (manual run)
+        if: github.event_name == 'workflow_dispatch'
+        run: python scripts/ingest_files.py --all
