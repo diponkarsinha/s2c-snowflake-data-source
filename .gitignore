@@ -1,0 +1,19 @@
+# waves waiting to be dropped (re-create with: python generator/generate_data.py)
+pending/
+
+# secrets - never commit
+.env
+*.p8
+*.pem
+rsa_key*
+*.pub
+
+# python / editors
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+tmp/

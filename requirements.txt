@@ -1,0 +1,6 @@
+# Snowflake + data handling
+snowflake-connector-python>=3.12
+cryptography>=42
+pandas>=2.2
+pyarrow>=16
+openpyxl>=3.1
