@@ -1,0 +1,86 @@
+[
+  {
+    "wave": 1,
+    "title": "Normal daily batch",
+    "path": "Batch",
+    "what": "New PO lines (CSV) and invoices (Parquet) for 2026-11-02",
+    "expect": "Loaded on the next 10-minute batch run. No DQ errors. Incremental models pick up only new rows."
+  },
+  {
+    "wave": 2,
+    "title": "Risk stream: normal events + one spike",
+    "path": "Stream",
+    "what": "5 NDJSON files of risk score events; one supplier jumps to score 8",
+    "expect": "Each file lands within about a minute (Snowpipe). RISK_CURRENT updates; the spike raises HIGH_RISK and SCORE_JUMP alerts."
+  },
+  {
+    "wave": 3,
+    "title": "Exact duplicate file",
+    "path": "Batch",
+    "what": "The wave-1 PO file delivered again in a 'redelivery' folder: same name, same content",
+    "expect": "It lands in RAW (unique stage path), AUD-F02 flags it, dbt dedup keeps one row per PO line."
+  },
+  {
+    "wave": 4,
+    "title": "Same content, different name",
+    "path": "Batch",
+    "what": "The wave-1 PO file resent as *_resend.csv",
+    "expect": "Snowflake load history cannot catch this. AUD-F04 (same MD5) flags it; RAW has duplicates; staging dedups."
+  },
+  {
+    "wave": 5,
+    "title": "Same name, different content",
+    "path": "Both",
+    "what": "Corrected PO file and a risk file re-sent with the SAME file names as before, new content",
+    "expect": "With unique stage paths both land (no silent skip). AUD-F03 flags them; staging keeps the latest AEDAT/load."
+  },
+  {
+    "wave": 6,
+    "title": "Bad rows",
+    "path": "Batch",
+    "what": "PO file with an extra delimiter, text in an amount, a missing supplier, an invalid date, bad encoding",
+    "expect": "Whole file still lands (all VARCHAR, ON_ERROR=CONTINUE). Row rules flag the 5 rows; dbt quarantines them."
+  },
+  {
+    "wave": 7,
+    "title": "Late, changed and deleted records",
+    "path": "Batch",
+    "what": "Invoices posted in September arriving now; PO lines changed or deleted (new AEDAT)",
+    "expect": "Incremental models must use a lookback window or late rows are missed; staging keeps latest AEDAT."
+  },
+  {
+    "wave": 8,
+    "title": "Supplier master changes",
+    "path": "Batch",
+    "what": "Full reload of the vendor master: names, addresses, bank accounts changed, 2 newly blocked, 1 new duplicate",
+    "expect": "dbt snapshot creates new SCD2 versions; golden record merges the new duplicate by VAT."
+  },
+  {
+    "wave": 9,
+    "title": "Schema drift",
+    "path": "Both",
+    "what": "PO file with a renamed column and a new column; risk events with payload_version 2",
+    "expect": "Data still lands (header row kept, extra column in _EXTRA_1). AUD-S01 flags drift; stream handles v2."
+  },
+  {
+    "wave": 10,
+    "title": "Contract and sourcing updates",
+    "path": "Batch",
+    "what": "Contract deltas (amendments, terminations, soft delete), events completed, 12 new requests in 3 pages",
+    "expect": "Snapshots capture status history; soft deletes excluded; new pages flattened."
+  },
+  {
+    "wave": 11,
+    "title": "Empty, header-only and bulk files",
+    "path": "Batch",
+    "what": "A 0-byte file, a header-only file, and a bulk file with 19354 PO lines",
+    "expect": "Empty files are logged, not errors. Volume check warns on the bulk file. Python reads it in chunks."
+  },
+  {
+    "wave": 12,
+    "title": "Stream chaos + manual Excel + FX",
+    "path": "Both",
+    "what": "Out-of-order, duplicate, late and invalid risk events; a 500-event burst; new savings Excel; November FX",
+    "expect": "Dead letter gets 4 invalid events + 1 duplicate; the out-of-order event does not overwrite the newer score; the late event is flagged."
+  }
+]

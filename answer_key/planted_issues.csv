@@ -1,0 +1,215 @@
+issue_id,wave,entity,file_name,record_key,issue_type,caught_by,expected_check,description
+PI-0001,initial,sap/suppliers,sap_suppliers_cremas_20261031.xml,0000100201,duplicate_supplier,dbt,DBT: one golden ID per VAT number,"Same VAT as 0000100062, name 'Keystone Consulting AG'"
+PI-0002,initial,sap/suppliers,sap_suppliers_cremas_20261031.xml,0000100202,duplicate_supplier,dbt,DBT: one golden ID per VAT number,"Same VAT as 0000100056, name 'PINNACLE CHEMICALS AG'"
+PI-0003,initial,sap/suppliers,sap_suppliers_cremas_20261031.xml,0000100203,duplicate_supplier,dbt,DBT: one golden ID per VAT number,"Same VAT as 0000100150, name 'QUANTUM LABS NV'"
+PI-0004,initial,sap/suppliers,sap_suppliers_cremas_20261031.xml,0000100204,duplicate_supplier,dbt,DBT: one golden ID per VAT number,"Same VAT as 0000100091, name 'Lumen  Analytics Pvt Ltd'"
+PI-0005,initial,sap/suppliers,sap_suppliers_cremas_20261031.xml,0000100205,duplicate_supplier,dbt,DBT: one golden ID per VAT number,"Same VAT as 0000100013, name 'Northstar Facilities GmbH.'"
+PI-0006,initial,sap/suppliers,sap_suppliers_cremas_20261031.xml,0000100206,duplicate_supplier,dbt,DBT: one golden ID per VAT number,"Same VAT as 0000100073, name 'Lumen Clinical Services BV.'"
+PI-0007,initial,sap/suppliers,sap_suppliers_cremas_20261031.xml,0000100207,duplicate_supplier,dbt,DBT: one golden ID per VAT number,"Same VAT as 0000100127, name 'Crescent Media SA'"
+PI-0008,initial,sap/suppliers,sap_suppliers_cremas_20261031.xml,0000100208,duplicate_supplier,dbt,DBT: one golden ID per VAT number,"Same VAT as 0000100153, name 'BRIGHTPATH IT SERVICES AG'"
+PI-0009,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000050,end_before_start,dbt,DBT: fct_contract end_date after start_date,Contract end date is before its start date
+PI-0010,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000119,end_before_start,dbt,DBT: fct_contract end_date after start_date,Contract end date is before its start date
+PI-0011,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000153,end_before_start,dbt,DBT: fct_contract end_date after start_date,Contract end date is before its start date
+PI-0012,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000253,signed_after_start,dbt,DBT: signed_date on or before start_date,Contract signed after it started
+PI-0013,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000175,signed_after_start,dbt,DBT: signed_date on or before start_date,Contract signed after it started
+PI-0014,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000025,signed_after_start,dbt,DBT: signed_date on or before start_date,Contract signed after it started
+PI-0015,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000261,signed_after_start,dbt,DBT: signed_date on or before start_date,Contract signed after it started
+PI-0016,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000164,supplier_not_in_sap,dbt,DBT: every contract maps to a SAP supplier,Ariba supplier with no SAP vendor (no VAT match)
+PI-0017,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000092,supplier_not_in_sap,dbt,DBT: every contract maps to a SAP supplier,Ariba supplier with no SAP vendor (no VAT match)
+PI-0018,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000074,supplier_not_in_sap,dbt,DBT: every contract maps to a SAP supplier,Ariba supplier with no SAP vendor (no VAT match)
+PI-0019,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000022,supplier_not_in_sap,dbt,DBT: every contract maps to a SAP supplier,Ariba supplier with no SAP vendor (no VAT match)
+PI-0020,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000264,overlapping_contract,dbt,SQL: overlapping contracts per supplier + category,Overlaps CW1000161 for the same supplier and category
+PI-0021,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000265,overlapping_contract,dbt,SQL: overlapping contracts per supplier + category,Overlaps CW1000179 for the same supplier and category
+PI-0022,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000266,overlapping_contract,dbt,SQL: overlapping contracts per supplier + category,Overlaps CW1000086 for the same supplier and category
+PI-0023,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000267,overlapping_contract,dbt,SQL: overlapping contracts per supplier + category,Overlaps CW1000029 for the same supplier and category
+PI-0024,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000268,overlapping_contract,dbt,SQL: overlapping contracts per supplier + category,Overlaps CW1000096 for the same supplier and category
+PI-0025,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000146,soft_delete,dbt,DBT: exclude soft-deleted contracts,Contract flagged isDeleted = true
+PI-0026,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000085,soft_delete,dbt,DBT: exclude soft-deleted contracts,Contract flagged isDeleted = true
+PI-0027,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000061,soft_delete,dbt,DBT: exclude soft-deleted contracts,Contract flagged isDeleted = true
+PI-0028,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000148,soft_delete,dbt,DBT: exclude soft-deleted contracts,Contract flagged isDeleted = true
+PI-0029,initial,ariba_contracts/contracts,ariba_contracts_20261031.json,CW1000141,soft_delete,dbt,DBT: exclude soft-deleted contracts,Contract flagged isDeleted = true
+PI-0030,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100146,completed_no_award_date,dbt,DBT: completed event has award date,Completed sourcing event has no awardDate
+PI-0031,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100130,completed_no_award_date,dbt,DBT: completed event has award date,Completed sourcing event has no awardDate
+PI-0032,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100065,completed_no_award_date,dbt,DBT: completed event has award date,Completed sourcing event has no awardDate
+PI-0033,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100049,completed_no_award_date,dbt,DBT: completed event has award date,Completed sourcing event has no awardDate
+PI-0034,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100084,completed_no_award_date,dbt,DBT: completed event has award date,Completed sourcing event has no awardDate
+PI-0035,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100067,unknown_category,dbt,DBT: relationships category_id,Event category not in taxonomy
+PI-0036,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100156,unknown_category,dbt,DBT: relationships category_id,Event category not in taxonomy
+PI-0037,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100028,unknown_category,dbt,DBT: relationships category_id,Event category not in taxonomy
+PI-0038,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100065|BID-001,duplicate_bid,dbt,SQL: dedup bids after FLATTEN,Same bid appears twice in the bids array
+PI-0039,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100078|BID-001,duplicate_bid,dbt,SQL: dedup bids after FLATTEN,Same bid appears twice in the bids array
+PI-0040,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100040|BID-001,duplicate_bid,dbt,SQL: dedup bids after FLATTEN,Same bid appears twice in the bids array
+PI-0041,initial,ariba_sourcing/events,ariba_sourcing_events_20261031.json,Doc6100026|BID-001,duplicate_bid,dbt,SQL: dedup bids after FLATTEN,Same bid appears twice in the bids array
+PI-0042,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001501-00010,po_to_blocked_supplier,dbt,DBT: no PO to a blocked supplier,Supplier 0000100014 is blocked (SPERR = X)
+PI-0043,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001502-00010,po_to_blocked_supplier,dbt,DBT: no PO to a blocked supplier,Supplier 0000100050 is blocked (SPERR = X)
+PI-0044,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001503-00010,po_to_blocked_supplier,dbt,DBT: no PO to a blocked supplier,Supplier 0000100093 is blocked (SPERR = X)
+PI-0045,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001504-00010,po_to_blocked_supplier,dbt,DBT: no PO to a blocked supplier,Supplier 0000100142 is blocked (SPERR = X)
+PI-0046,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001505-00010,po_to_blocked_supplier,dbt,DBT: no PO to a blocked supplier,Supplier 0000100144 is blocked (SPERR = X)
+PI-0047,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500000537-00030,closed_cost_center,dbt,DBT: PO not charged to a closed cost centre,Cost centre closed on 2026-06-30
+PI-0048,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001163-00020,closed_cost_center,dbt,DBT: PO not charged to a closed cost centre,Cost centre closed on 2026-06-30
+PI-0049,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500000701-00010,closed_cost_center,dbt,DBT: PO not charged to a closed cost centre,Cost centre closed on 2026-06-30
+PI-0050,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500000777-00010,closed_cost_center,dbt,DBT: PO not charged to a closed cost centre,Cost centre closed on 2026-06-30
+PI-0051,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001177-00020,closed_cost_center,dbt,DBT: PO not charged to a closed cost centre,Cost centre closed on 2026-06-30
+PI-0052,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001022-00010,closed_cost_center,dbt,DBT: PO not charged to a closed cost centre,Cost centre closed on 2026-06-30
+PI-0053,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500000139-00020,netwr_mismatch,audit,AUD-R05,NETWR is not MENGE x NETPR (±1%)
+PI-0054,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001297-00030,netwr_mismatch,audit,AUD-R05,NETWR is not MENGE x NETPR (±1%)
+PI-0055,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500000121-00010,netwr_mismatch,audit,AUD-R05,NETWR is not MENGE x NETPR (±1%)
+PI-0056,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500000511-00030,netwr_mismatch,audit,AUD-R05,NETWR is not MENGE x NETPR (±1%)
+PI-0057,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001506-00010,inactive_category,dbt,DBT: category active for material group,Material group PK-LFL maps to an inactive category
+PI-0058,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001506-00020,inactive_category,dbt,DBT: category active for material group,Material group PK-LFL maps to an inactive category
+PI-0059,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001507-00010,inactive_category,dbt,DBT: category active for material group,Material group IT-SRV maps to an inactive category
+PI-0060,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500000694-00030,unknown_material_group,dbt,DBT: relationships material group -> category,Material group not in taxonomy
+PI-0061,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500000248-00020,unknown_material_group,dbt,DBT: relationships material group -> category,Material group not in taxonomy
+PI-0062,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,4500001432-00030,unknown_material_group,dbt,DBT: relationships material group -> category,Material group not in taxonomy
+PI-0063,initial,sap/po_items,sap_po_items_ekpo_20261031.csv,(20 lines),deletion_flag,dbt,DBT: keep and flag deleted PO lines,20 PO lines carry LOEKZ = L (deleted in SAP)
+PI-0064,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000119-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0065,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001006-2026-2,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0066,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000050-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0067,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000808-2026-2,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0068,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000809-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0069,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000794-2026-2,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0070,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000545-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0071,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000095-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0072,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000587-2026-3,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0073,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001225-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0074,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000935-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0075,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000555-2026-4,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0076,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000395-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0077,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000040-2026-2,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0078,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001078-2026-2,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0079,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000990-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0080,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001151-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0081,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000013-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0082,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000375-2026-2,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0083,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000861-2026-1,price_variance,dbt,KPI: invoice price variance,Invoice unit price above PO price
+PI-0084,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000131-2026-3,qty_above_po,dbt,DBT: invoiced quantity <= ordered quantity,Invoiced quantity exceeds PO quantity
+PI-0085,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000516-2026-2,qty_above_po,dbt,DBT: invoiced quantity <= ordered quantity,Invoiced quantity exceeds PO quantity
+PI-0086,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000293-2026-4,qty_above_po,dbt,DBT: invoiced quantity <= ordered quantity,Invoiced quantity exceeds PO quantity
+PI-0087,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000205-2026-4,qty_above_po,dbt,DBT: invoiced quantity <= ordered quantity,Invoiced quantity exceeds PO quantity
+PI-0088,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000939-2026-1,qty_above_po,dbt,DBT: invoiced quantity <= ordered quantity,Invoiced quantity exceeds PO quantity
+PI-0089,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000626-2026-1,qty_above_po,dbt,DBT: invoiced quantity <= ordered quantity,Invoiced quantity exceeds PO quantity
+PI-0090,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000499-2026-2,orphan_invoice,dbt,DBT: every invoice line has a PO line,Invoice references a PO that does not exist
+PI-0091,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000451-2026-1,orphan_invoice,dbt,DBT: every invoice line has a PO line,Invoice references a PO that does not exist
+PI-0092,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000440-2026-1,orphan_invoice,dbt,DBT: every invoice line has a PO line,Invoice references a PO that does not exist
+PI-0093,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000349-2026-4,orphan_invoice,dbt,DBT: every invoice line has a PO line,Invoice references a PO that does not exist
+PI-0094,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100000190-2026-1,orphan_invoice,dbt,DBT: every invoice line has a PO line,Invoice references a PO that does not exist
+PI-0095,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001279-2026-1,invoice_on_deleted_po,dbt,DBT: no invoice on a deleted PO line,PO line is flagged deleted (LOEKZ = L)
+PI-0096,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001280-2026-1,invoice_on_deleted_po,dbt,DBT: no invoice on a deleted PO line,PO line is flagged deleted (LOEKZ = L)
+PI-0097,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001281-2026-1,invoice_on_deleted_po,dbt,DBT: no invoice on a deleted PO line,PO line is flagged deleted (LOEKZ = L)
+PI-0098,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001282-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0099,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001283-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0100,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001284-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0101,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001285-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0102,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001286-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0103,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001287-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0104,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001288-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0105,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001289-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0106,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001290-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0107,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001291-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0108,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001292-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0109,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001293-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0110,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001294-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0111,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001295-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0112,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001296-2026-1,credit_memo,dbt,DBT: credit memos reduce spend,"Negative invoice (credit memo, SHKZG = H)"
+PI-0113,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001297-2026-2,reversal,dbt,DBT: reversed invoices net to zero,Reverses invoice 5100000484
+PI-0114,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001298-2026-3,reversal,dbt,DBT: reversed invoices net to zero,Reverses invoice 5100000471
+PI-0115,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001299-2026-1,reversal,dbt,DBT: reversed invoices net to zero,Reverses invoice 5100000186
+PI-0116,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001300-2026-3,reversal,dbt,DBT: reversed invoices net to zero,Reverses invoice 5100000204
+PI-0117,initial,sap/invoices,sap_invoices_rseg_20261031.parquet,5100001301-2026-2,reversal,dbt,DBT: reversed invoices net to zero,Reverses invoice 5100000565
+PI-0118,initial,ariba_sourcing/requests,ariba_sourcing_requests_20261031_page_*.json,REQ1001070,updated_before_created,audit,AUD-R09,updated_at earlier than created_at
+PI-0119,initial,ariba_sourcing/requests,ariba_sourcing_requests_20261031_page_*.json,REQ1001104,updated_before_created,audit,AUD-R09,updated_at earlier than created_at
+PI-0120,initial,ariba_sourcing/requests,ariba_sourcing_requests_20261031_page_*.json,REQ1001275,updated_before_created,audit,AUD-R09,updated_at earlier than created_at
+PI-0121,initial,ariba_sourcing/requests,ariba_sourcing_requests_20261031_page_*.json,REQ1001269,updated_before_created,audit,AUD-R09,updated_at earlier than created_at
+PI-0122,initial,sap/fx_rates,sap_fx_rates_tcurr_20261031.xml,INR|2026-08,missing_fx_rate,dbt,DBT: no null amount_eur (FX found),INR rate missing for 2026-08
+PI-0123,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,US771641650,risk_score_out_of_range,audit,AUD-R11,financialRisk outside 1-9
+PI-0124,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,BE437352358,risk_score_out_of_range,audit,AUD-R11,financialRisk outside 1-9
+PI-0125,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,DE709074302,risk_score_out_of_range,audit,AUD-R11,financialRisk outside 1-9
+PI-0126,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,CN485123110,risk_review_overdue,dbt,DBT: risk review not overdue,nextReviewDue is in the past
+PI-0127,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,DE402533494,risk_review_overdue,dbt,DBT: risk review not overdue,nextReviewDue is in the past
+PI-0128,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,US565973314,risk_review_overdue,dbt,DBT: risk review not overdue,nextReviewDue is in the past
+PI-0129,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,IN372706093,risk_review_overdue,dbt,DBT: risk review not overdue,nextReviewDue is in the past
+PI-0130,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,BE477040284,risk_review_overdue,dbt,DBT: risk review not overdue,nextReviewDue is in the past
+PI-0131,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,CH322433532,risk_review_overdue,dbt,DBT: risk review not overdue,nextReviewDue is in the past
+PI-0132,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,IE993108266,risk_review_overdue,dbt,DBT: risk review not overdue,nextReviewDue is in the past
+PI-0133,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,DE325567963,risk_review_overdue,dbt,DBT: risk review not overdue,nextReviewDue is in the past
+PI-0134,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,GB190966348,risk_review_overdue,dbt,DBT: risk review not overdue,nextReviewDue is in the past
+PI-0135,initial,supplier_risk/risk_esg,supplier_risk_esg_20261026.json,NL935822550,risk_review_overdue,dbt,DBT: risk review not overdue,nextReviewDue is in the past
+PI-0136,initial,reference/savings_tracker,savings_tracker_fy2026_20261030.xlsx,SAV-0043,savings_mismatch,dbt,DBT: savings = baseline - negotiated,Reported savings do not add up
+PI-0137,initial,reference/savings_tracker,savings_tracker_fy2026_20261030.xlsx,SAV-0022,savings_mismatch,dbt,DBT: savings = baseline - negotiated,Reported savings do not add up
+PI-0138,initial,reference/savings_tracker,savings_tracker_fy2026_20261030.xlsx,SAV-0013,savings_mismatch,dbt,DBT: savings = baseline - negotiated,Reported savings do not add up
+PI-0139,initial,reference/savings_tracker,savings_tracker_fy2026_20261030.xlsx,SAV-0006,savings_mismatch,dbt,DBT: savings = baseline - negotiated,Reported savings do not add up
+PI-0140,initial,reference/savings_tracker,savings_tracker_fy2026_20261030.xlsx,SAV-0029,savings_mismatch,dbt,DBT: savings = baseline - negotiated,Reported savings do not add up
+PI-0141,initial,reference/savings_tracker,savings_tracker_fy2026_20261030.xlsx,SAV-0019,pasted_duplicate_row,dbt,DBT: unique savings_id,Row pasted twice by hand
+PI-0142,initial,reference/savings_tracker,savings_tracker_fy2026_20261030.xlsx,SAV-0045,pasted_duplicate_row,dbt,DBT: unique savings_id,Row pasted twice by hand
+PI-0143,initial,reference/savings_tracker,savings_tracker_fy2026_20261030.xlsx,SAV-0024,pasted_duplicate_row,dbt,DBT: unique savings_id,Row pasted twice by hand
+PI-0144,initial,reference/savings_tracker,savings_tracker_fy2026_20261030.xlsx,TOTAL,excel_total_row,audit,AUD-R12,Hand-made TOTAL row at the bottom of the sheet
+PI-0145,wave_02,supplier_risk/risk_events,risk_events_20261102_04.ndjson,RSK-9933763424,risk_spike,stream,STREAM: alert when score >= 7 or jump >= 3,Score jumps to 8 for NL347538338
+PI-0146,wave_03,sap/po_items,sap_po_items_ekpo_20261102.csv,(file),exact_duplicate_file,audit,AUD-F02,Same file name and same content delivered again (SAP re-extract)
+PI-0147,wave_04,sap/po_items,sap_po_items_ekpo_20261102_resend.csv,(file),same_content_new_name,audit,AUD-F04,Identical content to sap_po_items_ekpo_20261102.csv under a new name
+PI-0148,wave_05,sap/po_items,sap_po_items_ekpo_20261102.csv,4500001508-00010,corrected_line,dbt,DBT: keep latest version per PO line,Quantity corrected in a re-sent file with the same name
+PI-0149,wave_05,sap/po_items,sap_po_items_ekpo_20261102.csv,4500001508-00020,corrected_line,dbt,DBT: keep latest version per PO line,Quantity corrected in a re-sent file with the same name
+PI-0150,wave_05,sap/po_items,sap_po_items_ekpo_20261102.csv,4500001508-00030,corrected_line,dbt,DBT: keep latest version per PO line,Quantity corrected in a re-sent file with the same name
+PI-0151,wave_05,sap/po_items,sap_po_items_ekpo_20261102.csv,4500001508-00040,corrected_line,dbt,DBT: keep latest version per PO line,Quantity corrected in a re-sent file with the same name
+PI-0152,wave_05,sap/po_items,sap_po_items_ekpo_20261102.csv,4500001509-00010,corrected_line,dbt,DBT: keep latest version per PO line,Quantity corrected in a re-sent file with the same name
+PI-0153,wave_05,sap/po_items,sap_po_items_ekpo_20261102.csv,(file),same_name_new_content,audit,AUD-F03,Same file name as wave 1 but the content changed
+PI-0154,wave_05,supplier_risk/risk_events,risk_events_20261102_01.ndjson,(file),same_name_new_content,audit,AUD-F03,Stream file re-sent with the same name and new content
+PI-0155,wave_06,sap/po_items,sap_po_items_ekpo_20261105.csv,4500001534-00020,extra_delimiter,audit,AUD-R02,Unquoted ';' inside the text column shifts every field
+PI-0156,wave_06,sap/po_items,sap_po_items_ekpo_20261105.csv,4500001535-00030,text_in_amount,audit,AUD-R02,NETWR contains text 'n/a'
+PI-0157,wave_06,sap/po_items,sap_po_items_ekpo_20261105.csv,4500001537-00020,missing_key,audit,AUD-R03,LIFNR (supplier) is empty
+PI-0158,wave_06,sap/po_items,sap_po_items_ekpo_20261105.csv,4500001539-00020,invalid_date,audit,AUD-R04,BEDAT is '20261345'
+PI-0159,wave_06,sap/po_items,sap_po_items_ekpo_20261105.csv,4500001540-00020,invalid_encoding,audit,AUD-R06,Latin-1 bytes in a UTF-8 file (é); Snowflake replaces them with �
+PI-0160,wave_07,sap/invoices,sap_invoices_rseg_20261106.parquet,5100001329-2026-1,late_arriving,dbt,DBT: incremental lookback window,"Invoice posted in September, delivered in November"
+PI-0161,wave_07,sap/invoices,sap_invoices_rseg_20261106.parquet,5100001330-2026-1,late_arriving,dbt,DBT: incremental lookback window,"Invoice posted in September, delivered in November"
+PI-0162,wave_07,sap/invoices,sap_invoices_rseg_20261106.parquet,5100001330-2026-2,late_arriving,dbt,DBT: incremental lookback window,"Invoice posted in September, delivered in November"
+PI-0163,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500000901-00030,changed_record,dbt,DBT: keep latest AEDAT per PO line,PO line quantity changed (new AEDAT)
+PI-0164,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500001208-00010,changed_record,dbt,DBT: keep latest AEDAT per PO line,PO line quantity changed (new AEDAT)
+PI-0165,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500001166-00020,changed_record,dbt,DBT: keep latest AEDAT per PO line,PO line quantity changed (new AEDAT)
+PI-0166,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500000688-00030,changed_record,dbt,DBT: keep latest AEDAT per PO line,PO line quantity changed (new AEDAT)
+PI-0167,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500000651-00010,changed_record,dbt,DBT: keep latest AEDAT per PO line,PO line quantity changed (new AEDAT)
+PI-0168,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500000738-00020,changed_record,dbt,DBT: keep latest AEDAT per PO line,PO line quantity changed (new AEDAT)
+PI-0169,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500001267-00030,changed_record,dbt,DBT: keep latest AEDAT per PO line,PO line quantity changed (new AEDAT)
+PI-0170,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500000779-00010,changed_record,dbt,DBT: keep latest AEDAT per PO line,PO line quantity changed (new AEDAT)
+PI-0171,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500001019-00020,changed_record,dbt,DBT: keep latest AEDAT per PO line,PO line quantity changed (new AEDAT)
+PI-0172,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500000026-00010,changed_record,dbt,DBT: keep latest AEDAT per PO line,PO line quantity changed (new AEDAT)
+PI-0173,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500001445-00010,deleted_record,dbt,DBT: keep and flag deleted PO lines,PO line deleted in SAP (LOEKZ = L)
+PI-0174,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500000681-00010,deleted_record,dbt,DBT: keep and flag deleted PO lines,PO line deleted in SAP (LOEKZ = L)
+PI-0175,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500000171-00040,deleted_record,dbt,DBT: keep and flag deleted PO lines,PO line deleted in SAP (LOEKZ = L)
+PI-0176,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500001024-00010,deleted_record,dbt,DBT: keep and flag deleted PO lines,PO line deleted in SAP (LOEKZ = L)
+PI-0177,wave_07,sap/po_items,sap_po_items_ekpo_20261106_delta.csv,4500000101-00010,deleted_record,dbt,DBT: keep and flag deleted PO lines,PO line deleted in SAP (LOEKZ = L)
+PI-0178,wave_08,sap/suppliers,sap_suppliers_cremas_20261107.xml,0000100019,scd2_change,dbt,DBT: snapshot (SCD2) on supplier,name changed
+PI-0179,wave_08,sap/suppliers,sap_suppliers_cremas_20261107.xml,0000100126,scd2_change,dbt,DBT: snapshot (SCD2) on supplier,name changed
+PI-0180,wave_08,sap/suppliers,sap_suppliers_cremas_20261107.xml,0000100098,scd2_change,dbt,DBT: snapshot (SCD2) on supplier,address changed
+PI-0181,wave_08,sap/suppliers,sap_suppliers_cremas_20261107.xml,0000100020,scd2_change,dbt,DBT: snapshot (SCD2) on supplier,address changed
+PI-0182,wave_08,sap/suppliers,sap_suppliers_cremas_20261107.xml,0000100122,scd2_change,dbt,DBT: snapshot (SCD2) on supplier,bank account changed
+PI-0183,wave_08,sap/suppliers,sap_suppliers_cremas_20261107.xml,0000100028,scd2_change,dbt,DBT: snapshot (SCD2) on supplier,bank account changed
+PI-0184,wave_08,sap/suppliers,sap_suppliers_cremas_20261107.xml,0000100066,scd2_change,dbt,DBT: snapshot (SCD2) on supplier,supplier blocked
+PI-0185,wave_08,sap/suppliers,sap_suppliers_cremas_20261107.xml,0000100099,scd2_change,dbt,DBT: snapshot (SCD2) on supplier,supplier blocked
+PI-0186,wave_08,sap/suppliers,sap_suppliers_cremas_20261107.xml,0000100209,duplicate_supplier,dbt,DBT: one golden ID per VAT number,New vendor ID for existing supplier 0000100169 (same VAT)
+PI-0187,wave_09,sap/po_items,sap_po_items_ekpo_20261109.csv,(file),schema_drift,audit,AUD-S01,Column WAERS renamed to CURRENCY and new column ZZ_PROJECT appended
+PI-0188,wave_09,supplier_risk/risk_events,risk_events_20261109_01.ndjson,RSK-3615664809,payload_v2_sanctions,stream,STREAM: v2 payload handled + sanctions alert,payload_version 2 adds sanctions_hit and data_provider_ref
+PI-0189,wave_10,ariba_contracts/contracts,ariba_contracts_20261110_delta.json,CW1000074,contract_amended,dbt,DBT: snapshot contract status (SCD2),"New amendment, value +10%"
+PI-0190,wave_10,ariba_contracts/contracts,ariba_contracts_20261110_delta.json,CW1000112,contract_amended,dbt,DBT: snapshot contract status (SCD2),"New amendment, value +10%"
+PI-0191,wave_10,ariba_contracts/contracts,ariba_contracts_20261110_delta.json,CW1000201,contract_amended,dbt,DBT: snapshot contract status (SCD2),"New amendment, value +10%"
+PI-0192,wave_10,ariba_contracts/contracts,ariba_contracts_20261110_delta.json,CW1000062,contract_amended,dbt,DBT: snapshot contract status (SCD2),"New amendment, value +10%"
+PI-0193,wave_10,ariba_contracts/contracts,ariba_contracts_20261110_delta.json,CW1000199,contract_amended,dbt,DBT: snapshot contract status (SCD2),"New amendment, value +10%"
+PI-0194,wave_10,ariba_contracts/contracts,ariba_contracts_20261110_delta.json,CW1000144,contract_amended,dbt,DBT: snapshot contract status (SCD2),"New amendment, value +10%"
+PI-0195,wave_10,ariba_contracts/contracts,ariba_contracts_20261110_delta.json,CW1000184,status_change,dbt,DBT: dim_contract_status one current row,Active -> Terminated
+PI-0196,wave_10,ariba_contracts/contracts,ariba_contracts_20261110_delta.json,CW1000028,status_change,dbt,DBT: dim_contract_status one current row,Active -> Terminated
+PI-0197,wave_10,ariba_contracts/contracts,ariba_contracts_20261110_delta.json,CW1000121,status_change,dbt,DBT: dim_contract_status one current row,Active -> Terminated
+PI-0198,wave_10,ariba_contracts/contracts,ariba_contracts_20261110_delta.json,CW1000024,soft_delete,dbt,DBT: exclude soft-deleted contracts,Contract soft-deleted
+PI-0199,wave_10,ariba_sourcing/events,ariba_sourcing_events_20261110_delta.json,Doc6100009,completed_no_award_date,dbt,DBT: completed event has award date,Completed without awardDate
+PI-0200,wave_10,ariba_sourcing/requests,ariba_sourcing_requests_20261110_page_001.json,REQ1002001,updated_before_created,audit,AUD-R09,updated_at earlier than created_at
+PI-0201,wave_11,sap/po_items,sap_po_items_ekpo_20261111.csv,(file),empty_file,audit,AUD-F01,0-byte file
+PI-0202,wave_11,sap/po_items,sap_po_items_ekpo_20261111_b.csv,(file),header_only_file,audit,AUD-F01,File with a header and no data rows
+PI-0203,wave_11,sap/po_items,sap_po_items_ekpo_20261111_bulk.csv,(file),volume_spike,audit,AUD-F08,"19354 rows, far above the usual daily volume"
+PI-0204,wave_12,supplier_risk/risk_events,risk_events_20261112_01.ndjson,RSK-1892463649,out_of_order,stream,STREAM: MERGE only if event_time is newer,Older event delivered after newer one
+PI-0205,wave_12,supplier_risk/risk_events,risk_events_20261112_01.ndjson,RSK-4315472567,duplicate_event,stream,STREAM: dedup on event_id,Same event_id delivered twice
+PI-0206,wave_12,supplier_risk/risk_events,risk_events_20261112_01.ndjson,RSK-1323603234,late_event,stream,STREAM: is_late flag,event_time 6 hours before arrival
+PI-0207,wave_12,supplier_risk/risk_events,risk_events_20261112_01.ndjson,RSK-9265851348,invalid_event,stream,STREAM: dead letter,missing supplier_vat
+PI-0208,wave_12,supplier_risk/risk_events,risk_events_20261112_01.ndjson,RSK-8131259485,invalid_event,stream,STREAM: dead letter,risk_score 15 out of range
+PI-0209,wave_12,supplier_risk/risk_events,risk_events_20261112_01.ndjson,RSK-9183398711,invalid_event,stream,STREAM: dead letter,unsupported payload_version 3
+PI-0210,wave_12,supplier_risk/risk_events,risk_events_20261112_01.ndjson,RSK-8065246118,invalid_event,stream,STREAM: dead letter,risk_score is text
+PI-0211,wave_12,supplier_risk/risk_events,risk_events_20261112_02_burst.ndjson,(file),burst,stream,STREAM: throughput,500 events in one minute (quarter-end style burst)
+PI-0212,wave_12,reference/savings_tracker,savings_tracker_fy2026_20261113.xlsx,SAV-0040,pasted_duplicate_row,dbt,DBT: unique savings_id,Row pasted twice by hand
+PI-0213,wave_12,reference/savings_tracker,savings_tracker_fy2026_20261113.xlsx,SAV-0055,pasted_duplicate_row,dbt,DBT: unique savings_id,Row pasted twice by hand
+PI-0214,wave_12,reference/savings_tracker,savings_tracker_fy2026_20261113.xlsx,TOTAL,excel_total_row,audit,AUD-R12,Hand-made TOTAL row at the bottom of the sheet
