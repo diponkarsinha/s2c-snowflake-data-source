@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope sender="Sample Pharma Treasury" subject="Monthly average rates (rate type M), 1 EUR = rate x currency">
+  <Cube time="2026-11">
+    <Cube currency="USD" rate="1.0811" rateType="M"/>
+    <Cube currency="GBP" rate="0.8445" rateType="M"/>
+    <Cube currency="CHF" rate="0.9633" rateType="M"/>
+    <Cube currency="CNY" rate="7.7922" rateType="M"/>
+    <Cube currency="INR" rate="89.8200" rateType="M"/>
+  </Cube>
+</Envelope>
