@@ -4,7 +4,7 @@
 
 A fictional *Sample pharmaceutical company* buys from 200+ suppliers. Its procurement data lives in four systems that deliver files in five formats, some daily, some as a live stream, some typed by hand in Excel. This repo is everything up to the point where dbt takes over: realistic source files, a GitHub landing zone, Snowflake ingestion (batch + Snowpipe), and an audit layer that logs every problem before anything is transformed.
 
-The dbt models, KPIs and question banks live in the companion repo **s2c-dbt-analytics** (`https://github.com/<your-user>/s2c-dbt-analytics`).
+The dbt models, KPIs and question banks live in the companion repo **[s2c-dbt-analytics](https://github.com/diponkarsinha/s2c-dbt-analytics)**.
 
 > All data is synthetic. No real company, supplier or person is represented.
 
@@ -46,6 +46,27 @@ Details: [docs/architecture.md](docs/architecture.md)
 - **214 planted issues** with an answer key ([answer_key/planted_issues.csv](answer_key/planted_issues.csv)): duplicate suppliers under new IDs, blocked suppliers still receiving POs, closed cost centres, orphan invoices, credit memos, reversals, overlapping contracts, mixed boolean types, a TOTAL row in Excel, dd/mm dates, missing FX rates...
 - **12 drop waves** pushed one at a time to test the pipeline: duplicates (three kinds), bad rows, late data, SCD2 changes, schema drift, empty and huge files, out-of-order / duplicate / invalid stream events ([drop plan](docs/drop_plan.md))
 - **A self-checking audit layer**: `scripts/check_planted.py` compares what was planted with what Snowflake caught
+
+## Test results (all 12 waves run end to end)
+
+| Wave | Scenario | Result |
+|---|---|---|
+| 01 | Normal daily batch | 53 PO lines + 60 invoices loaded; row counts verified; dbt merged only new rows |
+| 02 | Risk stream + spike | Snowpipe loaded 41 events; HIGH_RISK + SCORE_JUMP alerts for the 2 -> 8 supplier |
+| 03 | Exact duplicate file | Landed, flagged AUD-F02, Gold unchanged |
+| 04 | Same content, new name | MD5 caught it (AUD-F04); load history alone would not |
+| 05 | Same name, new content | Correction loaded, never silently skipped (AUD-F03); latest SAP change date wins |
+| 06 | Bad rows | File landed; 4 rows quarantined, encoding WARN, volume WARN |
+| 07 | Late / changed / deleted | 30 late invoices flagged and picked up; deletes flagged, not removed |
+| 08 | Supplier master changes | SCD2 versions in snap_sap_suppliers; new duplicate merged by VAT |
+| 09 | Schema drift | Renamed + new column: load did not fail, drift flagged, new column read by dbt |
+| 10 | Contract updates | SCD2 status history for 10 contracts; 3 API pages flattened |
+| 11 | Empty / header-only / 19,354-row file | Logged, volume WARN, bulk file reached Gold |
+| 12 | Stream chaos | 5 events dead-lettered; out-of-order event did not overwrite or alert; late event flagged |
+
+**Answer-key check:** 214 planted issues: 37 caught by the audit/stream layer, 177 covered by dbt tests, **0 missed**.
+
+**Real issues found while testing:** Snowpipe records paths relative to the pipe folder (gate blocked until the rule was fixed); a correction file carried an older SAP change date (documented "latest change date wins" rule); a load ran before the upload finished (wait for the Action).
 
 ## Repository layout
 
