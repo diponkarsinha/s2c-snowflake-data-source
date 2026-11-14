@@ -1,0 +1,95 @@
+{
+  "result": [
+    {
+      "request_id": "REQ1002001",
+      "short_description": "Cleaning and maintenance for Consumer Health",
+      "category_id": "CAT-231",
+      "business_unit": "Consumer Health",
+      "estimated_value": "573000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Felix Miller",
+        "email": "felix.miller@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-11-10 09:00:00",
+      "updated_at": "2026-11-10 04:00:00",
+      "sla_due_date": "2026-10-19",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1002002",
+      "short_description": "IT hardware for MedTech",
+      "category_id": "CAT-212",
+      "business_unit": "MedTech",
+      "estimated_value": "606000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Grace Patel",
+        "email": "grace.patel@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-11-10 09:13:00",
+      "updated_at": "2026-11-10 09:13:00",
+      "sla_due_date": "2026-06-21",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1002003",
+      "short_description": "Software licences for Corporate",
+      "category_id": "CAT-211",
+      "business_unit": "Corporate",
+      "estimated_value": "620000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Tara Patel",
+        "email": "tara.patel@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-11-10 09:26:00",
+      "updated_at": "2026-11-10 09:26:00",
+      "sla_due_date": "2026-01-29",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1002004",
+      "short_description": "Cleaning and maintenance for Corporate",
+      "category_id": "CAT-231",
+      "business_unit": "Corporate",
+      "estimated_value": "309000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Felix Dubois",
+        "email": "felix.dubois@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-11-10 09:39:00",
+      "updated_at": "2026-11-10 09:39:00",
+      "sla_due_date": "2026-01-14",
+      "linked_event_id": ""
+    },
+    {
+      "request_id": "REQ1002005",
+      "short_description": "Excipients for Consumer Health",
+      "category_id": "CAT-112",
+      "business_unit": "Consumer Health",
+      "estimated_value": "647000",
+      "currency": "EUR",
+      "requested_by": {
+        "name": "Mila Kowalski",
+        "email": "mila.kowalski@samplepharma.example"
+      },
+      "status": "New",
+      "created_at": "2026-11-10 09:52:00",
+      "updated_at": "2026-11-10 09:52:00",
+      "sla_due_date": "2026-07-23",
+      "linked_event_id": ""
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "page_size": 5,
+    "total": 12,
+    "next_page": 2
+  }
+}

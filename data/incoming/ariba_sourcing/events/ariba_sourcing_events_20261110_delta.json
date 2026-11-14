@@ -1,0 +1,613 @@
+{
+  "records": [
+    {
+      "eventId": "Doc6100009",
+      "title": "Legal services - Pharmaceuticals 2026",
+      "eventType": "RFQ",
+      "status": "Completed",
+      "request": {
+        "requestId": "REQ1001077"
+      },
+      "category": {
+        "id": "CAT-222",
+        "name": "Legal services"
+      },
+      "owner": {
+        "name": "Ben Kowalski",
+        "email": "ben.kowalski@samplepharma.example"
+      },
+      "createdDate": "2026-10-18T18:00:00Z",
+      "openDate": "2026-10-20T18:00:00Z",
+      "closeDate": "2026-10-31T18:00:00Z",
+      "awardDate": null,
+      "baselineSpend": {
+        "amount": 232096.44,
+        "currency": "EUR"
+      },
+      "bids": [
+        {
+          "bidId": "BID-001",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000104",
+            "name": "Silverline Chemicals GmbH",
+            "vatNumber": "DE954852540"
+          },
+          "bidAmount": 205204.13,
+          "currency": "EUR",
+          "submittedAt": "2026-10-23T22:00:00Z"
+        },
+        {
+          "bidId": "BID-002",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000170",
+            "name": "Zenith Freight SA",
+            "vatNumber": "FR998386592"
+          },
+          "bidAmount": 236571.45,
+          "currency": "EUR",
+          "submittedAt": "2026-10-25T00:00:00Z"
+        },
+        {
+          "bidId": "BID-003",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000082",
+            "name": "Clearwater Freight NV",
+            "vatNumber": "BE350636897"
+          },
+          "bidAmount": 223537.09,
+          "currency": "EUR",
+          "submittedAt": "2026-10-26T03:00:00Z"
+        },
+        {
+          "bidId": "BID-004",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000175",
+            "name": "Bluewater Freight AG",
+            "vatNumber": "CH613818935"
+          },
+          "bidAmount": 229609.49,
+          "currency": "EUR",
+          "submittedAt": "2026-10-23T21:00:00Z"
+        },
+        {
+          "bidId": "BID-005",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000036",
+            "name": "Northstar Labs GmbH",
+            "vatNumber": "DE325567963"
+          },
+          "bidAmount": 219675.79,
+          "currency": "EUR",
+          "submittedAt": "2026-10-27T01:00:00Z"
+        },
+        {
+          "bidId": "BID-006",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000185",
+            "name": "Alpine Biotech Co Ltd",
+            "vatNumber": "CN515524530"
+          },
+          "bidAmount": 236541.95,
+          "currency": "EUR",
+          "submittedAt": "2026-10-26T23:00:00Z"
+        },
+        {
+          "bidId": "BID-007",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000104",
+            "name": "Silverline Chemicals GmbH",
+            "vatNumber": "DE954852540"
+          },
+          "bidAmount": 199786.64,
+          "currency": "EUR",
+          "submittedAt": "2026-10-23T02:00:00Z"
+        },
+        {
+          "bidId": "BID-008",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000170",
+            "name": "Zenith Freight SA",
+            "vatNumber": "FR998386592"
+          },
+          "bidAmount": 175553.47,
+          "currency": "EUR",
+          "submittedAt": "2026-10-22T01:00:00Z"
+        },
+        {
+          "bidId": "BID-009",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000082",
+            "name": "Clearwater Freight NV",
+            "vatNumber": "BE350636897"
+          },
+          "bidAmount": 171601.64,
+          "currency": "EUR",
+          "submittedAt": "2026-10-24T02:00:00Z"
+        },
+        {
+          "bidId": "BID-010",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000175",
+            "name": "Bluewater Freight AG",
+            "vatNumber": "CH613818935"
+          },
+          "bidAmount": 218776.45,
+          "currency": "EUR",
+          "submittedAt": "2026-10-22T23:00:00Z"
+        },
+        {
+          "bidId": "BID-011",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000036",
+            "name": "Northstar Labs GmbH",
+            "vatNumber": "DE325567963"
+          },
+          "bidAmount": 210716.77,
+          "currency": "EUR",
+          "submittedAt": "2026-10-22T23:00:00Z"
+        },
+        {
+          "bidId": "BID-012",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000185",
+            "name": "Alpine Biotech Co Ltd",
+            "vatNumber": "CN515524530"
+          },
+          "bidAmount": 178688.09,
+          "currency": "EUR",
+          "submittedAt": "2026-10-24T00:00:00Z"
+        }
+      ],
+      "award": {
+        "aribaSupplierId": "S2000104",
+        "awardedAmount": 205204.13
+      },
+      "updatedAt": "2026-11-10T12:00:00Z"
+    },
+    {
+      "eventId": "Doc6100025",
+      "title": "Software licences - R&D 2026",
+      "eventType": "Auction",
+      "status": "Completed",
+      "request": {
+        "requestId": "REQ1001128"
+      },
+      "category": {
+        "id": "CAT-211",
+        "name": "Software licences"
+      },
+      "owner": {
+        "name": "Anna Patel",
+        "email": "anna.patel@samplepharma.example"
+      },
+      "createdDate": "2026-10-16T15:00:00Z",
+      "openDate": "2026-10-18T15:00:00Z",
+      "closeDate": "2026-11-05T15:00:00Z",
+      "awardDate": "2026-11-10T12:00:00Z",
+      "baselineSpend": {
+        "amount": 892608.92,
+        "currency": "EUR"
+      },
+      "bids": [
+        {
+          "bidId": "BID-001",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000093",
+            "name": "Meridian Biotech Inc",
+            "vatNumber": "US692975437"
+          },
+          "bidAmount": 782552.81,
+          "currency": "EUR",
+          "submittedAt": "2026-10-23T15:00:00Z"
+        },
+        {
+          "bidId": "BID-002",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000076",
+            "name": "Tandem Consulting Inc",
+            "vatNumber": "US210152642"
+          },
+          "bidAmount": 676471.03,
+          "currency": "EUR",
+          "submittedAt": "2026-10-21T22:00:00Z"
+        },
+        {
+          "bidId": "BID-003",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000056",
+            "name": "Pinnacle Chemicals AG",
+            "vatNumber": "CH508431021"
+          },
+          "bidAmount": 713475.52,
+          "currency": "EUR",
+          "submittedAt": "2026-10-25T00:00:00Z"
+        },
+        {
+          "bidId": "BID-004",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000193",
+            "name": "Harbor Facilities Ltd",
+            "vatNumber": "IE369085407"
+          },
+          "bidAmount": 913264.26,
+          "currency": "EUR",
+          "submittedAt": "2026-10-20T15:00:00Z"
+        },
+        {
+          "bidId": "BID-005",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000093",
+            "name": "Meridian Biotech Inc",
+            "vatNumber": "US692975437"
+          },
+          "bidAmount": 818419.46,
+          "currency": "EUR",
+          "submittedAt": "2026-10-21T21:00:00Z"
+        },
+        {
+          "bidId": "BID-006",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000076",
+            "name": "Tandem Consulting Inc",
+            "vatNumber": "US210152642"
+          },
+          "bidAmount": 885102.06,
+          "currency": "EUR",
+          "submittedAt": "2026-10-19T21:00:00Z"
+        },
+        {
+          "bidId": "BID-007",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000056",
+            "name": "Pinnacle Chemicals AG",
+            "vatNumber": "CH508431021"
+          },
+          "bidAmount": 696712.18,
+          "currency": "EUR",
+          "submittedAt": "2026-10-24T19:00:00Z"
+        },
+        {
+          "bidId": "BID-008",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000193",
+            "name": "Harbor Facilities Ltd",
+            "vatNumber": "IE369085407"
+          },
+          "bidAmount": 630457.09,
+          "currency": "EUR",
+          "submittedAt": "2026-10-23T20:00:00Z"
+        }
+      ],
+      "award": {
+        "aribaSupplierId": "S2000093",
+        "awardedAmount": 782552.81
+      },
+      "updatedAt": "2026-11-10T12:00:00Z"
+    },
+    {
+      "eventId": "Doc6100053",
+      "title": "Cold-chain freight - R&D 2026",
+      "eventType": "RFI",
+      "status": "Completed",
+      "request": {
+        "requestId": "REQ1001137"
+      },
+      "category": {
+        "id": "CAT-251",
+        "name": "Cold-chain freight"
+      },
+      "owner": {
+        "name": "Liam Miller",
+        "email": "liam.miller@samplepharma.example"
+      },
+      "createdDate": "2026-10-07T09:00:00Z",
+      "openDate": "2026-10-09T09:00:00Z",
+      "closeDate": "2026-10-23T09:00:00Z",
+      "awardDate": "2026-11-10T12:00:00Z",
+      "baselineSpend": {
+        "amount": 386805.3,
+        "currency": "EUR"
+      },
+      "bids": [
+        {
+          "bidId": "BID-001",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000113",
+            "name": "Quantum Biotech Inc",
+            "vatNumber": "US965960427"
+          },
+          "bidAmount": 324218.37,
+          "currency": "EUR",
+          "submittedAt": "2026-10-11T13:00:00Z"
+        },
+        {
+          "bidId": "BID-002",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000188",
+            "name": "Maple Biotech Ltd",
+            "vatNumber": "GB646272321"
+          },
+          "bidAmount": 393210.33,
+          "currency": "EUR",
+          "submittedAt": "2026-10-13T16:00:00Z"
+        },
+        {
+          "bidId": "BID-003",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000050",
+            "name": "Summit Chemicals BV",
+            "vatNumber": "NL935822550"
+          },
+          "bidAmount": 349856.95,
+          "currency": "EUR",
+          "submittedAt": "2026-10-14T16:00:00Z"
+        },
+        {
+          "bidId": "BID-004",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000006",
+            "name": "Quantum Packaging NV",
+            "vatNumber": "BE870854579"
+          },
+          "bidAmount": 302723.89,
+          "currency": "EUR",
+          "submittedAt": "2026-10-11T17:00:00Z"
+        },
+        {
+          "bidId": "BID-005",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000113",
+            "name": "Quantum Biotech Inc",
+            "vatNumber": "US965960427"
+          },
+          "bidAmount": 313191.4,
+          "currency": "EUR",
+          "submittedAt": "2026-10-15T16:00:00Z"
+        },
+        {
+          "bidId": "BID-006",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000188",
+            "name": "Maple Biotech Ltd",
+            "vatNumber": "GB646272321"
+          },
+          "bidAmount": 304234.5,
+          "currency": "EUR",
+          "submittedAt": "2026-10-14T17:00:00Z"
+        },
+        {
+          "bidId": "BID-007",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000050",
+            "name": "Summit Chemicals BV",
+            "vatNumber": "NL935822550"
+          },
+          "bidAmount": 289997.96,
+          "currency": "EUR",
+          "submittedAt": "2026-10-14T11:00:00Z"
+        },
+        {
+          "bidId": "BID-008",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000006",
+            "name": "Quantum Packaging NV",
+            "vatNumber": "BE870854579"
+          },
+          "bidAmount": 325785.94,
+          "currency": "EUR",
+          "submittedAt": "2026-10-12T17:00:00Z"
+        }
+      ],
+      "award": {
+        "aribaSupplierId": "S2000113",
+        "awardedAmount": 324218.37
+      },
+      "updatedAt": "2026-11-10T12:00:00Z"
+    },
+    {
+      "eventId": "Doc6100054",
+      "title": "Management consulting - R&D 2026",
+      "eventType": "RFI",
+      "status": "Completed",
+      "request": {
+        "requestId": "REQ1001209"
+      },
+      "category": {
+        "id": "CAT-221",
+        "name": "Management consulting"
+      },
+      "owner": {
+        "name": "Felix Miller",
+        "email": "felix.miller@samplepharma.example"
+      },
+      "createdDate": "2026-10-15T08:00:00Z",
+      "openDate": "2026-10-17T08:00:00Z",
+      "closeDate": "2026-11-13T08:00:00Z",
+      "awardDate": "2026-11-10T12:00:00Z",
+      "baselineSpend": {
+        "amount": 60146.89,
+        "currency": "EUR"
+      },
+      "bids": [
+        {
+          "bidId": "BID-001",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000094",
+            "name": "Oakridge Consulting Co Ltd",
+            "vatNumber": "CN413383963"
+          },
+          "bidAmount": 62502.47,
+          "currency": "EUR",
+          "submittedAt": "2026-10-21T11:00:00Z"
+        },
+        {
+          "bidId": "BID-002",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000199",
+            "name": "Northstar Travel GmbH",
+            "vatNumber": "DE442648079"
+          },
+          "bidAmount": 53707.74,
+          "currency": "EUR",
+          "submittedAt": "2026-10-21T16:00:00Z"
+        },
+        {
+          "bidId": "BID-003",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000159",
+            "name": "Westbrook Media BV",
+            "vatNumber": "NL247709679"
+          },
+          "bidAmount": 46365.03,
+          "currency": "EUR",
+          "submittedAt": "2026-10-20T13:00:00Z"
+        },
+        {
+          "bidId": "BID-004",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000062",
+            "name": "Keystone Consulting AG",
+            "vatNumber": "CH608482316"
+          },
+          "bidAmount": 51439.75,
+          "currency": "EUR",
+          "submittedAt": "2026-10-20T09:00:00Z"
+        },
+        {
+          "bidId": "BID-005",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000083",
+            "name": "Maple Solutions Inc",
+            "vatNumber": "US684719405"
+          },
+          "bidAmount": 45216.3,
+          "currency": "EUR",
+          "submittedAt": "2026-10-23T09:00:00Z"
+        },
+        {
+          "bidId": "BID-006",
+          "round": 1,
+          "supplier": {
+            "aribaId": "S2000185",
+            "name": "Alpine Biotech Co Ltd",
+            "vatNumber": "CN515524530"
+          },
+          "bidAmount": 44174.67,
+          "currency": "EUR",
+          "submittedAt": "2026-10-19T10:00:00Z"
+        },
+        {
+          "bidId": "BID-007",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000094",
+            "name": "Oakridge Consulting Co Ltd",
+            "vatNumber": "CN413383963"
+          },
+          "bidAmount": 58823.96,
+          "currency": "EUR",
+          "submittedAt": "2026-10-19T09:00:00Z"
+        },
+        {
+          "bidId": "BID-008",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000199",
+            "name": "Northstar Travel GmbH",
+            "vatNumber": "DE442648079"
+          },
+          "bidAmount": 51351.43,
+          "currency": "EUR",
+          "submittedAt": "2026-10-18T08:00:00Z"
+        },
+        {
+          "bidId": "BID-009",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000159",
+            "name": "Westbrook Media BV",
+            "vatNumber": "NL247709679"
+          },
+          "bidAmount": 53000.29,
+          "currency": "EUR",
+          "submittedAt": "2026-10-21T15:00:00Z"
+        },
+        {
+          "bidId": "BID-010",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000062",
+            "name": "Keystone Consulting AG",
+            "vatNumber": "CH608482316"
+          },
+          "bidAmount": 52130.23,
+          "currency": "EUR",
+          "submittedAt": "2026-10-23T17:00:00Z"
+        },
+        {
+          "bidId": "BID-011",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000083",
+            "name": "Maple Solutions Inc",
+            "vatNumber": "US684719405"
+          },
+          "bidAmount": 46934.17,
+          "currency": "EUR",
+          "submittedAt": "2026-10-20T11:00:00Z"
+        },
+        {
+          "bidId": "BID-012",
+          "round": 2,
+          "supplier": {
+            "aribaId": "S2000185",
+            "name": "Alpine Biotech Co Ltd",
+            "vatNumber": "CN515524530"
+          },
+          "bidAmount": 53673.02,
+          "currency": "EUR",
+          "submittedAt": "2026-10-18T08:00:00Z"
+        }
+      ],
+      "award": {
+        "aribaSupplierId": "S2000094",
+        "awardedAmount": 62502.47
+      },
+      "updatedAt": "2026-11-10T12:00:00Z"
+    }
+  ],
+  "exportedAt": "2026-11-10T13:00:00Z"
+}

@@ -1,0 +1,462 @@
+{
+  "contracts": [
+    {
+      "contractId": "CW1000074",
+      "title": "Clinical trial services (CRO) agreement - Quantum Labs SA",
+      "supplier": {
+        "aribaId": "S2999018",
+        "name": "Granite Trading Ltd",
+        "vatNumber": "GB562286280"
+      },
+      "categoryId": "CAT-241",
+      "eventId": "Doc6100084",
+      "value": {
+        "amount": 39017.5,
+        "currency": "EUR"
+      },
+      "term": {
+        "startDate": "2026-01-08",
+        "endDate": "2027-01-07",
+        "signedDate": "2026-01-06",
+        "noticePeriodDays": 90,
+        "autoRenew": "Y"
+      },
+      "status": "Active",
+      "owner": {
+        "name": "Jonas Schmidt",
+        "email": "jonas.schmidt@samplepharma.example"
+      },
+      "isDeleted": false,
+      "lastStatusChangeAt": "2026-11-10T09:00:00Z",
+      "lineItems": [
+        {
+          "lineNo": 10,
+          "materialGroup": "CL-CRO",
+          "description": "Clinical trial services (CRO)",
+          "unitPrice": 39511.72,
+          "uom": "MS"
+        }
+      ],
+      "amendments": [
+        {
+          "amendmentId": "CW1000074-A1",
+          "effectiveDate": "2026-11-10",
+          "valueChange": 3547.05,
+          "reason": "Volume increase"
+        }
+      ]
+    },
+    {
+      "contractId": "CW1000112",
+      "title": "Cleaning and maintenance agreement - Nordic IT Services Ltd",
+      "supplier": {
+        "aribaId": "S2000025",
+        "name": "Nordic IT Services Ltd",
+        "vatNumber": "GB727255918"
+      },
+      "categoryId": "CAT-231",
+      "eventId": "Doc6100129",
+      "value": {
+        "amount": 561437.02,
+        "currency": "EUR"
+      },
+      "term": {
+        "startDate": "2026-04-08",
+        "endDate": "2027-04-07",
+        "signedDate": "2026-03-30",
+        "noticePeriodDays": 60,
+        "autoRenew": "Y"
+      },
+      "status": "Active",
+      "owner": {
+        "name": "Tara Patel",
+        "email": "tara.patel@samplepharma.example"
+      },
+      "isDeleted": false,
+      "lastStatusChangeAt": "2026-11-10T09:00:00Z",
+      "lineItems": [
+        {
+          "lineNo": 10,
+          "materialGroup": "FM-CLN",
+          "description": "Cleaning and maintenance",
+          "unitPrice": 72.12,
+          "uom": "SRV"
+        }
+      ],
+      "amendments": [
+        {
+          "amendmentId": "CW1000112-A1",
+          "effectiveDate": "2026-11-10",
+          "valueChange": 51039.73,
+          "reason": "Volume increase"
+        }
+      ]
+    },
+    {
+      "contractId": "CW1000201",
+      "title": "Lab consumables agreement - Tandem Travel GmbH",
+      "supplier": {
+        "aribaId": "S2000158",
+        "name": "Tandem Travel GmbH",
+        "vatNumber": "DE645985356"
+      },
+      "categoryId": "CAT-131",
+      "eventId": null,
+      "value": {
+        "amount": 2636700.0,
+        "currency": "EUR"
+      },
+      "term": {
+        "startDate": "2024-05-11",
+        "endDate": "2027-05-10",
+        "signedDate": "2024-04-29",
+        "noticePeriodDays": 90,
+        "autoRenew": "true"
+      },
+      "status": "Active",
+      "owner": {
+        "name": "Ben Meyer",
+        "email": "ben.meyer@samplepharma.example"
+      },
+      "isDeleted": false,
+      "lastStatusChangeAt": "2026-11-10T09:00:00Z",
+      "lineItems": [
+        {
+          "lineNo": 10,
+          "materialGroup": "LB-CON",
+          "description": "Lab consumables",
+          "unitPrice": 72.19,
+          "uom": "BOX"
+        }
+      ],
+      "amendments": [
+        {
+          "amendmentId": "CW1000201-A1",
+          "effectiveDate": "2026-11-10",
+          "valueChange": 239700.0,
+          "reason": "Volume increase"
+        }
+      ]
+    },
+    {
+      "contractId": "CW1000062",
+      "title": "Legal services agreement - Pinnacle Consulting Ltd",
+      "supplier": {
+        "aribaId": "S2000157",
+        "name": "Pinnacle Consulting Ltd",
+        "vatNumber": "GB190966348"
+      },
+      "categoryId": "CAT-222",
+      "eventId": "Doc6100070",
+      "value": {
+        "amount": 477916.04,
+        "currency": "EUR"
+      },
+      "term": {
+        "startDate": "2026-08-24",
+        "endDate": "2028-08-22",
+        "signedDate": "2026-08-22",
+        "noticePeriodDays": 30,
+        "autoRenew": false
+      },
+      "status": "Active",
+      "owner": {
+        "name": "Mila Dubois",
+        "email": "mila.dubois@samplepharma.example"
+      },
+      "isDeleted": false,
+      "lastStatusChangeAt": "2026-11-10T09:00:00Z",
+      "lineItems": [
+        {
+          "lineNo": 10,
+          "materialGroup": "PS-LEG",
+          "description": "Legal services",
+          "unitPrice": 463.84,
+          "uom": "HR"
+        }
+      ],
+      "amendments": [
+        {
+          "amendmentId": "CW1000062-A1",
+          "effectiveDate": "2026-11-10",
+          "valueChange": 43446.91,
+          "reason": "Volume increase"
+        }
+      ]
+    },
+    {
+      "contractId": "CW1000199",
+      "title": "IT hardware agreement - Westbrook Biotech AG",
+      "supplier": {
+        "aribaId": "S2000161",
+        "name": "Westbrook Biotech AG",
+        "vatNumber": "CH146914391"
+      },
+      "categoryId": "CAT-212",
+      "eventId": null,
+      "value": {
+        "amount": 848100.0,
+        "currency": "EUR"
+      },
+      "term": {
+        "startDate": "2026-01-22",
+        "endDate": "2028-01-21",
+        "signedDate": "2026-01-08",
+        "noticePeriodDays": 30,
+        "autoRenew": "true"
+      },
+      "status": "Active",
+      "owner": {
+        "name": "Yusuf Novak",
+        "email": "yusuf.novak@samplepharma.example"
+      },
+      "isDeleted": false,
+      "lastStatusChangeAt": "2026-11-10T09:00:00Z",
+      "lineItems": [
+        {
+          "lineNo": 10,
+          "materialGroup": "IT-HW",
+          "description": "IT hardware",
+          "unitPrice": 1493.13,
+          "uom": "EA"
+        }
+      ],
+      "amendments": [
+        {
+          "amendmentId": "CW1000199-A1",
+          "effectiveDate": "2026-11-10",
+          "valueChange": 77100.0,
+          "reason": "Volume increase"
+        }
+      ]
+    },
+    {
+      "contractId": "CW1000144",
+      "title": "Primary packaging (vials, blisters) agreement - Aurora Freight Inc",
+      "supplier": {
+        "aribaId": "S2000163",
+        "name": "Aurora Freight Inc",
+        "vatNumber": "US935504321"
+      },
+      "categoryId": "CAT-121",
+      "eventId": "Doc6100169",
+      "value": {
+        "amount": 722786.15,
+        "currency": "EUR"
+      },
+      "term": {
+        "startDate": "2026-02-09",
+        "endDate": "2028-02-08",
+        "signedDate": "2026-02-02",
+        "noticePeriodDays": 30,
+        "autoRenew": true
+      },
+      "status": "Active",
+      "owner": {
+        "name": "Eva Weber",
+        "email": "eva.weber@samplepharma.example"
+      },
+      "isDeleted": false,
+      "lastStatusChangeAt": "2026-11-10T09:00:00Z",
+      "lineItems": [
+        {
+          "lineNo": 10,
+          "materialGroup": "PK-PRI",
+          "description": "Primary packaging (vials, blisters)",
+          "unitPrice": 1.42,
+          "uom": "EA"
+        }
+      ],
+      "amendments": [
+        {
+          "amendmentId": "CW1000144-A1",
+          "effectiveDate": "2026-05-10",
+          "valueChange": 26215.01,
+          "reason": "Scope extension"
+        },
+        {
+          "amendmentId": "CW1000144-A2",
+          "effectiveDate": "2026-08-08",
+          "valueChange": 73582.83,
+          "reason": "Volume increase"
+        },
+        {
+          "amendmentId": "CW1000144-A3",
+          "effectiveDate": "2026-11-10",
+          "valueChange": 65707.83,
+          "reason": "Volume increase"
+        }
+      ]
+    },
+    {
+      "contractId": "CW1000184",
+      "title": "Cleaning and maintenance agreement - Tandem Packaging Inc",
+      "supplier": {
+        "aribaId": "S2000004",
+        "name": "Tandem Packaging Inc",
+        "vatNumber": "US673528321"
+      },
+      "categoryId": "CAT-231",
+      "eventId": null,
+      "value": {
+        "amount": 1772000,
+        "currency": "EUR"
+      },
+      "term": {
+        "startDate": "2025-08-29",
+        "endDate": "2027-08-28",
+        "signedDate": "2025-08-28",
+        "noticePeriodDays": 60,
+        "autoRenew": true
+      },
+      "status": "Terminated",
+      "owner": {
+        "name": "Ben Garcia",
+        "email": "ben.garcia@samplepharma.example"
+      },
+      "isDeleted": false,
+      "lastStatusChangeAt": "2026-11-10T10:00:00Z",
+      "lineItems": [
+        {
+          "lineNo": 10,
+          "materialGroup": "FM-CLN",
+          "description": "Cleaning and maintenance",
+          "unitPrice": 101.46,
+          "uom": "SRV"
+        }
+      ],
+      "amendments": []
+    },
+    {
+      "contractId": "CW1000028",
+      "title": "Lab equipment agreement - Oakridge Logistics GmbH",
+      "supplier": {
+        "aribaId": "S2000020",
+        "name": "Oakridge Logistics GmbH",
+        "vatNumber": "DE881913386"
+      },
+      "categoryId": "CAT-132",
+      "eventId": "Doc6100032",
+      "value": {
+        "amount": 949260.98,
+        "currency": "EUR"
+      },
+      "term": {
+        "startDate": "2026-03-18",
+        "endDate": "2027-03-17",
+        "signedDate": "2026-03-03",
+        "noticePeriodDays": 60,
+        "autoRenew": true
+      },
+      "status": "Terminated",
+      "owner": {
+        "name": "Ines Okafor",
+        "email": "ines.okafor@samplepharma.example"
+      },
+      "isDeleted": false,
+      "lastStatusChangeAt": "2026-11-10T10:00:00Z",
+      "lineItems": [
+        {
+          "lineNo": 10,
+          "materialGroup": "LB-EQP",
+          "description": "Lab equipment",
+          "unitPrice": 9409.01,
+          "uom": "EA"
+        }
+      ],
+      "amendments": [
+        {
+          "amendmentId": "CW1000028-A1",
+          "effectiveDate": "2026-06-16",
+          "valueChange": 75794.7,
+          "reason": "Price indexation"
+        },
+        {
+          "amendmentId": "CW1000028-A2",
+          "effectiveDate": "2026-09-14",
+          "valueChange": 62656.97,
+          "reason": "Volume increase"
+        }
+      ]
+    },
+    {
+      "contractId": "CW1000121",
+      "title": "Excipients agreement - Zenith Freight SA",
+      "supplier": {
+        "aribaId": "S2000170",
+        "name": "Zenith Freight SA",
+        "vatNumber": "FR998386592"
+      },
+      "categoryId": "CAT-112",
+      "eventId": "Doc6100142",
+      "value": {
+        "amount": 526282.9,
+        "currency": "EUR"
+      },
+      "term": {
+        "startDate": "2026-10-11",
+        "endDate": "2029-10-09",
+        "signedDate": "2026-10-09",
+        "noticePeriodDays": 60,
+        "autoRenew": true
+      },
+      "status": "Terminated",
+      "owner": {
+        "name": "Ines Okafor",
+        "email": "ines.okafor@samplepharma.example"
+      },
+      "isDeleted": false,
+      "lastStatusChangeAt": "2026-11-10T10:00:00Z",
+      "lineItems": [
+        {
+          "lineNo": 10,
+          "materialGroup": "RM-EXC",
+          "description": "Excipients",
+          "unitPrice": 112.69,
+          "uom": "KG"
+        }
+      ],
+      "amendments": []
+    },
+    {
+      "contractId": "CW1000024",
+      "title": "Cleaning and maintenance agreement - Brightpath Pharma Supplies Inc",
+      "supplier": {
+        "aribaId": "S2000002",
+        "name": "Brightpath Pharma Supplies Inc",
+        "vatNumber": "US856528252"
+      },
+      "categoryId": "CAT-231",
+      "eventId": "Doc6100028",
+      "value": {
+        "amount": 523662.87,
+        "currency": "EUR"
+      },
+      "term": {
+        "startDate": "2026-09-20",
+        "endDate": "2029-09-18",
+        "signedDate": "2026-09-03",
+        "noticePeriodDays": 90,
+        "autoRenew": true
+      },
+      "status": "Active",
+      "owner": {
+        "name": "Tara Murphy",
+        "email": "tara.murphy@samplepharma.example"
+      },
+      "isDeleted": true,
+      "lastStatusChangeAt": "2026-11-10T11:00:00Z",
+      "lineItems": [
+        {
+          "lineNo": 10,
+          "materialGroup": "FM-CLN",
+          "description": "Cleaning and maintenance",
+          "unitPrice": 258.65,
+          "uom": "SRV"
+        }
+      ],
+      "amendments": []
+    }
+  ],
+  "count": 10
+}
