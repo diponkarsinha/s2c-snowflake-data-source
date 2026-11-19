@@ -157,7 +157,7 @@ DICT = {
     "ariba_contracts/approvals": (
         "Contract approvals", "SAP Ariba Contracts (approval flow)", "ariba_contract_approvals_YYYYMMDD.csv",
         "CSV, comma", "One row per approval step", "approval_id", "Batch", "RAW.ARIBA_CONTRACT_APPROVALS",
-        "Approval chain. approver_manager_id builds the org hierarchy (recursive CTE practice).",
+        "Approval chain. approver_manager_id builds the org hierarchy (recursive CTE).",
         [("approval_id", "text", "No", "Step ID", "Internal", ""),
          ("contract_id", "text", "No", "Contract", "Internal", ""),
          ("step", "int", "No", "1, 2, 3 (higher value -> more steps)", "Internal", ""),

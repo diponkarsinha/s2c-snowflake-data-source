@@ -1,6 +1,6 @@
 # Contract approvals
 
-Approval chain. approver_manager_id builds the org hierarchy (recursive CTE practice).
+Approval chain. approver_manager_id builds the org hierarchy (recursive CTE).
 
 | | |
 |---|---|

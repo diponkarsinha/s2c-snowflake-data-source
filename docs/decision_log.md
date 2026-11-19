@@ -1,6 +1,6 @@
 # Decision log (ADRs)
 
-Short records of the important design choices: what we decided, why, and what we gave up. Interviewers often ask "why did you do it this way?", and the answers are here.
+Short records of the important design choices: what we decided, why, and what we gave up. Each entry explains why it was done this way.
 
 | ID | Decision | Why | Trade-off / alternative |
 |---|---|---|---|

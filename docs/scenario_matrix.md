@@ -1,27 +1,6 @@
-# Scenario matrix: waves → scenarios → practice topics
+# Scenario matrix: waves → scenarios → what each one tests
 
-Push a wave, look at what happened in Snowflake, then practise the questions that use it. The full question banks (with answers) are in **s2c-dbt-analytics/questions/**. The IDs below are the planned numbering there.
-
-| ID range | Topic |
-|---|---|
-| SQL-01-10 | Basics: filters, CASE, NULLs, strings, dates |
-| SQL-11-18 | Joins, anti-joins, fan-out |
-| SQL-19-26 | Aggregation, HAVING, conditional aggregation, pivot |
-| SQL-27-38 | Window functions, QUALIFY, top-N, running totals, LAG/LEAD |
-| SQL-39-44 | CTEs, subqueries, EXISTS, recursive CTEs |
-| SQL-45-50 | Data quality and de-duplication |
-| SQL-51-56 | Gaps and islands, overlaps, SCD2, cycle time |
-| SQL-57-60 | Snowflake SQL: FLATTEN, XMLGET, MERGE, Time Travel |
-| PY-01-08 | Core Python |
-| PY-09-18 | pandas |
-| PY-19-23 | Data quality checks |
-| PY-24-29 | Snowflake connector, Snowpark |
-| PY-30-33 | File and API ingestion |
-| PY-34-36 | dbt + Python |
-| PY-37-40 | Coding-round classics |
-| FH-01-12 | File handling (Snowflake + Python) |
-| SF-01-35 | Snowflake platform |
-| DBT-01-40 | dbt Core |
+Each delivery wave plants a specific problem. This shows what to look at in Snowflake and which skill it tests.
 
 ## By wave
 
@@ -41,9 +20,9 @@ Push a wave, look at what happened in Snowflake, then practise the questions tha
 | 11 | Empty, header-only, bulk | AUD-F01, AUD-F08 | - | Chunked reading, memory | File sizing, PARALLEL in PUT | - |
 | 12 | Stream chaos, Excel, FX | `RISK_DEAD_LETTER`, `RISK_CURRENT`, AUD-R12/R14 | Out-of-order handling, gaps | Excel quirks, dd/mm dates | MERGE with event time, dead letter | Savings validation tests |
 
-## By interview topic: where to point in this repo
+## Design questions: where to look in this repo
 
-| Interview question | Show them |
+| Question | Where to look |
 |---|---|
 | "How do you make sure no data is lost?" | Unique stage paths, all-VARCHAR RAW, AUD-F05/F06, dead letter (`docs/architecture.md`) |
 | "Batch or streaming, and why?" | Risk = stream (compliance needs minutes), everything else = batch (`docs/decision_log.md` DEC-04) |

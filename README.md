@@ -116,7 +116,7 @@ Roles: `S2C_ADMIN`, `S2C_LOADER` (GitHub service user, key-pair auth), `S2C_TRAN
 | [source_to_target.md](docs/source_to_target.md) | RAW → dbt staging mapping |
 | [dq_rules.md](docs/dq_rules.md) | All 27 audit rules + pre-load and stream checks |
 | [drop_plan.md](docs/drop_plan.md) | The 12 waves and planted issues |
-| [scenario_matrix.md](docs/scenario_matrix.md) | Waves → practice topics; interview questions → where to look |
+| [scenario_matrix.md](docs/scenario_matrix.md) | Waves → scenarios → what each one tests |
 | [decision_log.md](docs/decision_log.md) | 16 design decisions with trade-offs |
 | [runbook.md](docs/runbook.md) | Operating, troubleshooting, production checklist |
 | [github_setup.md](docs/github_setup.md) | Zip → running pipeline, step by step |
