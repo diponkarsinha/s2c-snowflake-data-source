@@ -4,7 +4,7 @@
 
 A fictional *Sample pharmaceutical company* buys from 200+ suppliers. Its procurement data lives in four systems that deliver files in five formats, some daily, some as a live stream, some typed by hand in Excel. This repo is everything up to the point where dbt takes over: realistic source files, a GitHub landing zone, Snowflake ingestion (batch + Snowpipe), and an audit layer that logs every problem before anything is transformed.
 
-The dbt models, KPIs and question banks live in the companion repo **[s2c-dbt-analytics](https://github.com/diponkarsinha/s2c-dbt-analytics)**.
+The dbt models and KPIs live in the companion repo **[s2c-dbt-analytics](https://github.com/diponkarsinha/s2c-dbt-analytics)**.
 
 > All data is synthetic. No real company, supplier or person is represented.
 
